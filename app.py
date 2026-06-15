@@ -1,8 +1,13 @@
-"""Jakarta Rental Dashboard.
+"""Jakarta Rental Dashboard — Bintang 5.
 
 Interactive Streamlit dashboard for exploring rental property listings
-across Greater Jakarta: filters, KPI cards, and four analytical views
-(scatter, bar, pie, correlation heatmap) plus dynamically computed insights.
+across Greater Jakarta: filters, KPI cards, four analytical views
+(scatter, bar, pie, correlation heatmap), a folium sebaran map, and
+dynamically computed insights.
+
+Upgraded with the shared "Phase 1" architecture: Ocean-Blue theme, SQLite
+search history, input sanitization, and a loading skeleton. All original
+analysis logic is preserved unchanged.
 
 Run with: ``streamlit run app.py``
 """
@@ -12,17 +17,77 @@ from __future__ import annotations
 import os
 import subprocess
 import sys
-from typing import List, Optional
+from typing import Dict, List, Optional, Tuple
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import numpy as np
 import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+import folium
+from streamlit_folium import st_folium
+
+from core.database import init_db, save_query, get_history, seed_dummy_data, get_dummy_data
+from core.security import sanitize_input, mask_api_key, generate_session_id
+from core.theme import inject_phase1_theme, show_loading_skeleton
+from data.seeder import seed_apartments
+
 DATA_PATH: str = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "jakarta_rentals.csv")
 GENERATOR_PATH: str = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "generator.py")
 
+# Approximate area centroids (lat, lon) for the sebaran map. Listings are
+# jittered deterministically around these so the map is stable across reruns.
+AREA_CENTROIDS: Dict[str, Tuple[float, float]] = {
+    "Jakarta Pusat": (-6.1865, 106.8340),
+    "Jakarta Selatan": (-6.2615, 106.8106),
+    "Jakarta Utara": (-6.1214, 106.8890),
+    "Jakarta Timur": (-6.2250, 106.9004),
+    "Jakarta Barat": (-6.1670, 106.7637),
+    "Bekasi": (-6.2383, 106.9756),
+    "Depok": (-6.4025, 106.7942),
+    "Tangerang": (-6.1783, 106.6319),
+}
+
 st.set_page_config(page_title="Jakarta Rental Dashboard", layout="wide")
+inject_phase1_theme()
+
+
+def inject_ui_layout_fixes() -> None:
+    """Inject layout-only CSS (no color changes): KPI text + responsive mobile.
+
+    On mobile (<768px) the KPI cards reflow into a 2x2 grid and the folium
+    map iframe shrinks to the viewport width.
+    """
+    st.markdown(
+        """
+        <style>
+            [data-testid="stMetricLabel"], [data-testid="stMetricLabel"] p {
+                white-space: normal !important; overflow: visible !important;
+                font-size: 0.85rem !important; line-height: 1.2 !important;
+            }
+            [data-testid="stMetricValue"] {
+                white-space: normal !important; overflow: visible !important;
+                font-size: 1.5rem !important;
+            }
+            iframe { max-width: 100% !important; }
+            @media (max-width: 768px) {
+                [data-testid="stHorizontalBlock"] {
+                    flex-wrap: wrap !important; gap: 0.5rem !important;
+                }
+                [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
+                    flex: 1 1 45% !important; min-width: 45% !important;
+                }
+                iframe { height: 320px !important; }
+            }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+inject_ui_layout_fixes()
 
 
 @st.cache_data
@@ -114,20 +179,119 @@ def compute_insights(df: pd.DataFrame) -> List[str]:
         return [f"Gagal menghitung insight: {exc}"]
 
 
+def _price_color(price: float, thresholds: Tuple[float, float]) -> str:
+    """Return a marker color based on price tier (low/mid/high)."""
+    low, high = thresholds
+    if price <= low:
+        return "#22c55e"
+    if price >= high:
+        return "#ef4444"
+    return "#eab308"
+
+
+def render_map(df: pd.DataFrame) -> None:
+    """Render a folium sebaran map of the (filtered) listings.
+
+    Listings are placed at deterministically jittered positions around their
+    area centroid and colour-coded by price tier. Capped at 250 markers for
+    responsiveness.
+
+    Args:
+        df: Filtered dataset with ``lokasi`` and ``harga_sewa_bulan``.
+    """
+    try:
+        import random
+
+        if df.empty:
+            st.info("Tidak ada listing untuk dipetakan.")
+            return
+
+        low = float(df["harga_sewa_bulan"].quantile(0.33))
+        high = float(df["harga_sewa_bulan"].quantile(0.66))
+
+        fmap = folium.Map(location=[-6.21, 106.84], zoom_start=11, tiles="CartoDB dark_matter")
+        sample = df.head(250)
+        for _, row in sample.iterrows():
+            base = AREA_CENTROIDS.get(str(row["lokasi"]), (-6.21, 106.84))
+            rng = random.Random(int(row.get("id", 0)))
+            lat = base[0] + rng.uniform(-0.025, 0.025)
+            lon = base[1] + rng.uniform(-0.025, 0.025)
+            price = float(row["harga_sewa_bulan"])
+            popup = folium.Popup(
+                f"<b>{sanitize_input(str(row.get('nama_property', '-')), 80)}</b><br>"
+                f"{row['lokasi']} • {row.get('tipe', '-')}<br>"
+                f"Rp {price:,.0f}/bln • {row['luas_m2']:.0f} m²",
+                max_width=240,
+            )
+            folium.CircleMarker(
+                location=[lat, lon],
+                radius=5,
+                color=_price_color(price, (low, high)),
+                fill=True,
+                fill_opacity=0.75,
+                weight=1,
+                popup=popup,
+            ).add_to(fmap)
+
+        st_folium(fmap, height=480, width=None, returned_objects=[])
+        st.caption(
+            "🟢 ≤ P33 harga • 🟡 menengah • 🔴 ≥ P66 harga · "
+            f"menampilkan {len(sample)} dari {len(df)} listing"
+        )
+    except Exception as exc:  # pragma: no cover - defensive
+        st.error(f"Peta gagal dirender: {exc}")
+
+
+def render_recent_history() -> None:
+    """Render the recent-search-history section in the sidebar."""
+    try:
+        st.sidebar.divider()
+        st.sidebar.header("🕒 Recent History")
+        history = get_history(limit=5)
+        if not history:
+            st.sidebar.caption("Belum ada riwayat pencarian.")
+            return
+        for row in history:
+            st.sidebar.markdown(
+                f"**{str(row.get('timestamp', ''))[:16]}**  \n"
+                f"{row.get('query', '')}  \n"
+                f"<span style='color:#94a3b8'>{row.get('result_summary', '')}</span>",
+                unsafe_allow_html=True,
+            )
+    except Exception as exc:  # pragma: no cover - defensive
+        st.sidebar.caption(f"History error: {exc}")
+
+
 def main() -> None:
     """Render the dashboard."""
     try:
+        # ----- Shared-architecture bootstrap -----
+        init_db()
+        # Generate apartments.csv + seed dummy_data on first run (idempotent).
+        seed_apartments()
+        if "session_id" not in st.session_state:
+            st.session_state["session_id"] = generate_session_id()
+        session_id: str = st.session_state["session_id"]
+
         st.title("🏙️ Jakarta Rental Dashboard")
         st.caption("Analisis 800 listing sewa apartemen di Jabodetabek")
 
+        # ----- Data load (with skeleton) -----
+        placeholder = st.empty()
+        with placeholder.container():
+            show_loading_skeleton("Memuat data listing...")
         df = load_data()
+        placeholder.empty()
         if df is None or df.empty:
             st.stop()
 
-        # ----- Sidebar filters -----
+        # ----- Sidebar filters (sanitized) -----
         st.sidebar.header("🔎 Filter")
-        lokasi = st.sidebar.multiselect("Lokasi", sorted(df["lokasi"].unique()))
-        tipe = st.sidebar.multiselect("Tipe Unit", sorted(df["tipe"].unique()))
+        lokasi_raw = st.sidebar.multiselect("Lokasi", sorted(df["lokasi"].unique()))
+        tipe_raw = st.sidebar.multiselect("Tipe Unit", sorted(df["tipe"].unique()))
+        # Sanitize selections defensively before they drive queries/filters.
+        lokasi = [sanitize_input(x, max_length=40) for x in lokasi_raw]
+        tipe = [sanitize_input(x, max_length=20) for x in tipe_raw]
         harga_max = st.sidebar.slider(
             "Harga Maksimum (Rp)", 0, 20_000_000, 20_000_000, step=500_000
         )
@@ -142,6 +306,18 @@ def main() -> None:
         for insight in compute_insights(filtered):
             st.sidebar.info(insight)
 
+        # ----- Recent search history (from SQLite) -----
+        render_recent_history()
+
+        # ----- Persist this search to history -----
+        query_desc = sanitize_input(
+            f"lokasi={lokasi or 'all'}, tipe={tipe or 'all'}, "
+            f"harga<= {harga_max}, luas>= {luas_min}, mrt={dekat_mrt}",
+            max_length=160,
+        )
+        avg_price_all = filtered["harga_sewa_bulan"].mean() if not filtered.empty else 0
+        save_query(query_desc, f"{len(filtered)} listing | avg Rp {avg_price_all:,.0f}", session_id)
+
         # ----- KPI cards -----
         col1, col2, col3 = st.columns(3)
         col1.metric("Total Listings", f"{len(filtered):,}")
@@ -154,9 +330,9 @@ def main() -> None:
             st.warning("Tidak ada listing yang cocok dengan filter. Longgarkan kriteria Anda.")
             st.stop()
 
-        # ----- Tabs -----
-        tab1, tab2, tab3, tab4 = st.tabs(
-            ["📈 Harga vs Luas", "📊 Harga per Lokasi", "🥧 Komposisi Tipe", "🔥 Korelasi"]
+        # ----- Tabs (existing 4 views + new sebaran map) -----
+        tab1, tab2, tab3, tab4, tab5 = st.tabs(
+            ["📈 Harga vs Luas", "📊 Harga per Lokasi", "🥧 Komposisi Tipe", "🔥 Korelasi", "🗺️ Peta Sebaran"]
         )
 
         with tab1:
@@ -169,7 +345,8 @@ def main() -> None:
                 title="Harga Sewa vs Luas Unit",
                 labels={"luas_m2": "Luas (m²)", "harga_sewa_bulan": "Harga Sewa/Bulan (Rp)"},
             )
-            st.plotly_chart(fig, use_container_width=True)
+            fig.update_layout(template="plotly_dark", paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)")
+            st.plotly_chart(fig, width="stretch")
 
         with tab2:
             mean_by_loc = (
@@ -186,7 +363,8 @@ def main() -> None:
                 title="Rata-rata Harga Sewa per Lokasi",
                 labels={"lokasi": "Lokasi", "harga_sewa_bulan": "Rata-rata Harga (Rp)"},
             )
-            st.plotly_chart(fig, use_container_width=True)
+            fig.update_layout(template="plotly_dark", paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)")
+            st.plotly_chart(fig, width="stretch")
 
         with tab3:
             tipe_counts = filtered["tipe"].value_counts().reset_index()
@@ -194,7 +372,8 @@ def main() -> None:
             fig = px.pie(
                 tipe_counts, names="tipe", values="jumlah", title="Komposisi Tipe Unit", hole=0.35
             )
-            st.plotly_chart(fig, use_container_width=True)
+            fig.update_layout(template="plotly_dark", paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)")
+            st.plotly_chart(fig, width="stretch")
 
         with tab4:
             numeric_cols = ["luas_m2", "harga_sewa_bulan", "jarak_ke_mrt_km", "rating_review"]
@@ -207,10 +386,18 @@ def main() -> None:
                 zmax=1,
                 title="Korelasi Antar Variabel Numerik",
             )
-            st.plotly_chart(fig, use_container_width=True)
+            fig.update_layout(template="plotly_dark", paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)")
+            st.plotly_chart(fig, width="stretch")
+
+        with tab5:
+            map_placeholder = st.empty()
+            with map_placeholder.container():
+                show_loading_skeleton("Merender peta sebaran...")
+            map_placeholder.empty()
+            render_map(filtered)
 
         with st.expander("📋 Lihat Data Mentah"):
-            st.dataframe(filtered, use_container_width=True)
+            st.dataframe(filtered, width="stretch")
 
     except Exception as exc:
         st.error(f"Terjadi kesalahan pada dashboard: {exc}")

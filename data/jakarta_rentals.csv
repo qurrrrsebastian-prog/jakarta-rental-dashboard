@@ -1,0 +1,801 @@
+id,nama_property,lokasi,tipe,luas_m2,harga_sewa_bulan,fasilitas,jarak_ke_mrt_km,rating_review
+1,Apartemen Sudirman A,Jakarta Barat,Studio,26.9,2990000,"Akses Kartu, Gym, Laundry",1.76,3.4
+2,Residence Menteng C,Jakarta Selatan,1BR,40.2,6740000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket",5.45,3.2
+3,Suites Senayan II,Tangerang,Studio,22.3,3190000,"Akses Kartu, Gym, Minimarket",3.25,3.6
+4,Suites Alam Sutera B,Depok,1BR,40.0,3610000,"Akses Kartu, Gym, Keamanan 24 Jam, Parkir, Taman Bermain",2.81,3.7
+5,Kost Eksklusif Kelapa Gading C,Jakarta Timur,2BR,64.6,9390000,"Keamanan 24 Jam, Laundry, Minimarket, Taman Bermain",0.95,4.7
+6,Residence Pluit B,Jakarta Selatan,1BR,42.0,8760000,"Furnished, Laundry, Minimarket, Parkir, Taman Bermain",0.89,3.5
+7,Apartemen Casablanca B,Jakarta Utara,3BR,123.4,10200000,"Akses Kartu, Gym, Laundry, Minimarket",2.71,4.3
+8,Tower Margonda A,Tangerang,Studio,22.6,3690000,"AC, Akses Kartu, Furnished, Gym, Kolam Renang",5.67,3.6
+9,Kost Eksklusif Royal Mediterania B,Jakarta Pusat,3BR,65.2,17170000,"AC, Akses Kartu, Gym, Laundry",11.67,3.3
+10,Apartemen Tebet A,Jakarta Pusat,Studio,25.2,4250000,"AC, Akses Kartu, Kolam Renang, Parkir, Taman Bermain",4.42,5.0
+11,Tower Pondok Indah II,Jakarta Pusat,1BR,39.2,7230000,"Akses Kartu, Furnished, Keamanan 24 Jam, Minimarket, Parkir, Taman Bermain",6.38,3.9
+12,Apartemen Kemang C,Jakarta Timur,1BR,29.1,3550000,"Akses Kartu, Gym, Kolam Renang, Taman Bermain",6.69,3.1
+13,Suites Alam Sutera I,Jakarta Timur,2BR,63.4,5860000,"Furnished, Gym, Kolam Renang, Laundry, Minimarket, Parkir",1.67,3.8
+14,Suites Kuningan C,Jakarta Selatan,Studio,18.7,5380000,"Akses Kartu, Gym, Minimarket, Parkir",1.4,3.9
+15,Suites Tebet I,Jakarta Barat,3BR,117.5,13850000,"Gym, Keamanan 24 Jam, Parkir",1.27,3.4
+16,Residence Kemang II,Tangerang,Studio,20.0,2500000,"AC, Akses Kartu, Gym, Keamanan 24 Jam, Laundry, Minimarket",4.75,4.5
+17,Residence Senayan II,Jakarta Selatan,2BR,42.0,9540000,"Akses Kartu, Gym, Kolam Renang, Laundry",10.25,3.1
+18,Kost Eksklusif Green Bay II,Jakarta Timur,3BR,72.8,14120000,"Gym, Laundry, Taman Bermain",3.03,3.6
+19,Apartemen Sudirman I,Jakarta Utara,1BR,39.4,4290000,"AC, Furnished, Laundry, Minimarket",3.26,4.2
+20,Suites Permata C,Jakarta Barat,Studio,24.5,3510000,"Furnished, Gym, Keamanan 24 Jam, Parkir, Taman Bermain",1.68,4.2
+21,Tower Royal Mediterania B,Jakarta Selatan,2BR,72.6,7450000,"AC, Akses Kartu, Keamanan 24 Jam",3.25,4.4
+22,Apartemen Sudirman C,Jakarta Timur,2BR,57.7,6000000,"AC, Gym, Laundry",10.91,4.5
+23,Kost Eksklusif Kemang C,Jakarta Utara,1BR,40.6,4880000,"Gym, Keamanan 24 Jam, Taman Bermain",5.19,4.2
+24,Apartemen Alam Sutera II,Jakarta Pusat,3BR,73.3,13060000,"Akses Kartu, Furnished, Parkir",9.57,4.8
+25,Tower Grand Galaxy B,Tangerang,1BR,43.7,4090000,"Furnished, Keamanan 24 Jam, Kolam Renang, Laundry",2.03,3.5
+26,Suites Margonda C,Jakarta Barat,3BR,121.7,13870000,"AC, Furnished, Gym, Kolam Renang, Laundry, Parkir",2.75,4.7
+27,Tower Kemang A,Jakarta Utara,2BR,62.5,6600000,"AC, Akses Kartu, Gym, Kolam Renang, Minimarket",11.78,4.2
+28,Kost Eksklusif Permata B,Depok,2BR,55.3,8940000,"AC, Akses Kartu, Kolam Renang, Laundry",1.48,3.7
+29,Tower Permata B,Jakarta Barat,2BR,61.8,7650000,"AC, Akses Kartu, Keamanan 24 Jam, Laundry, Parkir",1.58,3.4
+30,Suites Green Bay II,Tangerang,1BR,38.5,4250000,"AC, Parkir, Taman Bermain",6.62,4.3
+31,Residence Cervino B,Bekasi,3BR,93.7,8710000,"AC, Furnished, Gym, Kolam Renang",5.73,4.6
+32,Residence Sudirman A,Jakarta Pusat,Studio,18.6,5910000,"Akses Kartu, Gym, Laundry, Minimarket, Parkir, Taman Bermain",9.25,4.6
+33,Suites Cikini II,Jakarta Timur,1BR,41.7,5240000,"Gym, Keamanan 24 Jam, Laundry, Minimarket",5.63,4.2
+34,Kost Eksklusif Tebet B,Bekasi,3BR,119.0,11380000,"AC, Furnished, Keamanan 24 Jam, Laundry, Minimarket, Parkir",10.78,3.5
+35,Suites Thamrin B,Jakarta Barat,2BR,48.2,6340000,"Keamanan 24 Jam, Parkir, Taman Bermain",10.73,3.1
+36,Tower Bintaro I,Tangerang,2BR,59.0,6660000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Laundry, Parkir, Taman Bermain",2.56,4.1
+37,Suites Green Bay II,Jakarta Timur,3BR,79.3,12410000,"AC, Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket, Taman Bermain",0.45,4.3
+38,Suites Pluit I,Jakarta Barat,3BR,73.8,12700000,"Akses Kartu, Furnished, Laundry, Minimarket",0.7,3.5
+39,Residence Menteng A,Jakarta Barat,3BR,66.3,11320000,"Gym, Kolam Renang, Laundry, Minimarket, Parkir",12.0,4.2
+40,Residence Cervino A,Jakarta Timur,1BR,36.1,3790000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Taman Bermain",11.38,4.2
+41,Kost Eksklusif Kemang C,Jakarta Utara,3BR,90.8,12720000,"AC, Gym, Laundry, Taman Bermain",1.0,4.1
+42,Suites Kuningan II,Depok,Studio,24.1,3180000,"Furnished, Gym, Laundry, Minimarket, Parkir, Taman Bermain",10.21,4.9
+43,Suites Green Bay II,Jakarta Utara,3BR,95.2,13610000,"AC, Akses Kartu, Gym, Parkir, Taman Bermain",7.15,4.3
+44,Tower Permata A,Depok,Studio,23.9,3150000,"AC, Akses Kartu, Furnished, Minimarket, Taman Bermain",5.9,4.0
+45,Apartemen Senayan C,Jakarta Timur,Studio,20.9,3310000,"Akses Kartu, Laundry, Minimarket, Taman Bermain",6.71,3.4
+46,Suites Pluit C,Jakarta Timur,2BR,63.2,6480000,"Akses Kartu, Furnished, Keamanan 24 Jam, Laundry, Minimarket",6.69,3.5
+47,Kost Eksklusif Cikini II,Jakarta Barat,1BR,33.4,5360000,"Keamanan 24 Jam, Minimarket, Parkir, Taman Bermain",11.42,3.6
+48,Tower Thamrin I,Jakarta Barat,1BR,33.0,4400000,"AC, Akses Kartu, Kolam Renang, Taman Bermain",3.7,3.2
+49,Apartemen Thamrin B,Jakarta Selatan,2BR,56.4,10410000,"AC, Gym, Kolam Renang, Laundry, Parkir, Taman Bermain",0.71,4.6
+50,Tower Green Bay I,Jakarta Utara,Studio,29.9,2740000,"Akses Kartu, Laundry, Minimarket, Parkir",9.2,3.6
+51,Apartemen Grand Galaxy I,Jakarta Selatan,Studio,29.4,3620000,"Gym, Keamanan 24 Jam, Minimarket, Parkir",7.96,4.4
+52,Residence Grand Galaxy A,Bekasi,2BR,41.1,6150000,"AC, Furnished, Gym, Laundry, Minimarket, Parkir",3.46,4.1
+53,Suites Pluit II,Jakarta Pusat,2BR,68.9,6520000,"Furnished, Gym, Keamanan 24 Jam, Minimarket, Taman Bermain",3.76,4.1
+54,Kost Eksklusif Sudirman C,Bekasi,Studio,25.2,4280000,"AC, Furnished, Gym, Kolam Renang, Parkir",8.84,4.2
+55,Tower Casablanca B,Jakarta Pusat,3BR,98.7,13230000,"Gym, Keamanan 24 Jam, Laundry, Minimarket, Parkir, Taman Bermain",11.96,3.7
+56,Tower Margonda A,Bekasi,2BR,63.2,6600000,"Furnished, Gym, Minimarket",9.15,4.9
+57,Suites Kemang B,Tangerang,Studio,25.9,3590000,"Akses Kartu, Furnished, Minimarket, Taman Bermain",5.02,3.5
+58,Suites Senayan B,Jakarta Pusat,2BR,55.3,9540000,"AC, Akses Kartu, Keamanan 24 Jam, Kolam Renang",11.68,5.0
+59,Suites Kelapa Gading I,Jakarta Barat,3BR,126.6,12180000,"AC, Akses Kartu, Laundry, Minimarket, Parkir",1.93,4.1
+60,Kost Eksklusif Pluit A,Tangerang,1BR,43.7,4770000,"AC, Furnished, Laundry",10.56,3.6
+61,Residence Kelapa Gading II,Jakarta Utara,3BR,121.2,10570000,"Akses Kartu, Keamanan 24 Jam, Laundry, Parkir, Taman Bermain",5.86,3.8
+62,Kost Eksklusif Margonda A,Tangerang,Studio,21.8,3450000,"AC, Gym, Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket",10.97,4.7
+63,Kost Eksklusif Bintaro A,Bekasi,Studio,24.3,3410000,"Furnished, Gym, Keamanan 24 Jam, Laundry, Minimarket, Taman Bermain",8.7,4.7
+64,Tower Kelapa Gading A,Tangerang,2BR,61.9,8550000,"Gym, Parkir, Taman Bermain",5.91,3.9
+65,Tower Alam Sutera I,Jakarta Barat,Studio,23.3,3890000,"AC, Furnished, Kolam Renang",10.85,3.3
+66,Tower Pondok Indah C,Tangerang,1BR,30.9,3700000,"Keamanan 24 Jam, Minimarket, Parkir, Taman Bermain",10.46,4.3
+67,Suites Cervino B,Bekasi,2BR,63.7,5630000,"AC, Furnished, Keamanan 24 Jam, Laundry, Taman Bermain",5.36,5.0
+68,Apartemen Royal Mediterania I,Bekasi,Studio,20.8,3640000,"AC, Kolam Renang, Laundry, Minimarket, Taman Bermain",6.94,4.7
+69,Apartemen Green Bay C,Jakarta Utara,1BR,38.3,4380000,"Gym, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",7.68,4.5
+70,Tower Tebet C,Jakarta Barat,2BR,51.4,6660000,"AC, Akses Kartu, Gym, Laundry, Taman Bermain",2.49,4.5
+71,Suites Sudirman C,Depok,Studio,23.6,2650000,"Akses Kartu, Furnished, Kolam Renang, Laundry",9.07,4.1
+72,Kost Eksklusif Margonda II,Bekasi,2BR,63.5,7690000,"AC, Gym, Kolam Renang, Minimarket, Parkir",7.06,3.4
+73,Apartemen Casablanca B,Jakarta Barat,3BR,124.1,9420000,"AC, Kolam Renang, Parkir, Taman Bermain",4.96,4.8
+74,Kost Eksklusif Grand Galaxy C,Jakarta Pusat,3BR,94.5,16670000,"Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Parkir, Taman Bermain",11.36,3.1
+75,Apartemen Bintaro C,Depok,1BR,35.5,5880000,"Akses Kartu, Furnished, Taman Bermain",10.28,3.4
+76,Residence Green Bay B,Jakarta Barat,3BR,71.0,8700000,"Furnished, Kolam Renang, Parkir",7.71,3.1
+77,Kost Eksklusif Pluit B,Jakarta Timur,1BR,41.8,4080000,"AC, Akses Kartu, Keamanan 24 Jam",9.31,3.2
+78,Suites Cikini A,Jakarta Selatan,1BR,28.3,6830000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang",3.95,4.5
+79,Apartemen Kemang I,Bekasi,3BR,115.6,11110000,"AC, Kolam Renang, Parkir, Taman Bermain",1.4,4.7
+80,Kost Eksklusif Permata C,Tangerang,Studio,23.9,5000000,"AC, Gym, Keamanan 24 Jam, Minimarket",0.97,3.8
+81,Suites Kelapa Gading I,Jakarta Utara,3BR,97.9,10440000,"Akses Kartu, Laundry, Parkir",9.54,3.7
+82,Apartemen Senayan I,Bekasi,3BR,92.0,7760000,"Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket",5.18,3.2
+83,Suites Kemang C,Depok,1BR,37.5,4970000,"Akses Kartu, Furnished, Gym, Laundry, Minimarket",6.78,4.2
+84,Tower Green Bay B,Depok,Studio,24.9,2930000,"Akses Kartu, Furnished, Gym, Kolam Renang",7.92,4.6
+85,Suites Senayan B,Jakarta Selatan,2BR,41.0,8240000,"AC, Akses Kartu, Furnished, Keamanan 24 Jam, Kolam Renang",11.07,4.5
+86,Residence Royal Mediterania A,Jakarta Selatan,Studio,27.0,3760000,"AC, Furnished, Gym, Kolam Renang, Minimarket",4.16,4.3
+87,Apartemen Cervino II,Jakarta Utara,3BR,108.0,10890000,"Akses Kartu, Gym, Keamanan 24 Jam, Parkir, Taman Bermain",5.36,4.0
+88,Apartemen Sudirman I,Jakarta Utara,Studio,20.6,5230000,"AC, Akses Kartu, Keamanan 24 Jam, Taman Bermain",0.75,4.5
+89,Suites Senayan C,Jakarta Pusat,1BR,34.5,6840000,"Gym, Kolam Renang, Laundry, Minimarket, Parkir",10.02,4.2
+90,Suites Casablanca B,Tangerang,3BR,83.8,10240000,"Furnished, Kolam Renang, Minimarket, Taman Bermain",11.6,3.9
+91,Residence Alam Sutera C,Tangerang,Studio,22.7,3120000,"AC, Akses Kartu, Gym, Keamanan 24 Jam, Laundry",4.14,4.5
+92,Kost Eksklusif Green Bay I,Jakarta Pusat,1BR,29.7,5110000,"Akses Kartu, Keamanan 24 Jam, Minimarket",1.92,4.4
+93,Tower Pondok Indah I,Depok,2BR,45.3,5270000,"AC, Akses Kartu, Furnished, Kolam Renang, Taman Bermain",5.36,3.1
+94,Tower Royal Mediterania I,Depok,2BR,42.7,8460000,"AC, Akses Kartu, Gym, Kolam Renang, Minimarket, Parkir",10.28,4.0
+95,Kost Eksklusif Cikini II,Jakarta Selatan,3BR,71.7,18010000,"Akses Kartu, Kolam Renang, Minimarket, Parkir",8.6,3.3
+96,Apartemen Permata I,Depok,2BR,53.6,8100000,"Furnished, Gym, Taman Bermain",8.18,3.6
+97,Residence Cikini A,Jakarta Pusat,2BR,42.9,10590000,"AC, Gym, Keamanan 24 Jam, Minimarket, Parkir, Taman Bermain",3.79,4.3
+98,Apartemen Cervino A,Tangerang,2BR,40.6,6240000,"Akses Kartu, Gym, Laundry, Minimarket, Parkir",11.42,4.0
+99,Suites Alam Sutera B,Jakarta Selatan,2BR,70.7,9860000,"Keamanan 24 Jam, Kolam Renang, Minimarket, Taman Bermain",1.94,4.9
+100,Kost Eksklusif Cikini I,Jakarta Utara,3BR,80.2,8910000,"Furnished, Keamanan 24 Jam, Laundry, Minimarket, Parkir, Taman Bermain",11.59,4.9
+101,Residence Pluit I,Jakarta Timur,1BR,42.8,3630000,"Akses Kartu, Gym, Keamanan 24 Jam, Kolam Renang, Taman Bermain",5.82,4.8
+102,Kost Eksklusif Alam Sutera B,Jakarta Pusat,3BR,71.0,19470000,"Kolam Renang, Laundry, Taman Bermain",10.63,3.8
+103,Residence Tebet I,Jakarta Barat,2BR,47.9,6270000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",1.28,4.2
+104,Residence Grand Galaxy II,Jakarta Barat,Studio,21.1,4170000,"AC, Furnished, Gym, Keamanan 24 Jam, Kolam Renang, Parkir",6.63,3.9
+105,Kost Eksklusif Alam Sutera B,Jakarta Barat,3BR,103.8,7130000,"AC, Keamanan 24 Jam, Kolam Renang, Laundry",6.23,4.1
+106,Suites Alam Sutera C,Jakarta Pusat,Studio,24.3,4480000,"Kolam Renang, Laundry, Minimarket",6.57,4.5
+107,Residence Pondok Indah I,Depok,Studio,22.1,3970000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang, Taman Bermain",7.58,4.3
+108,Suites Permata I,Jakarta Pusat,Studio,26.6,5300000,"AC, Furnished, Kolam Renang, Minimarket",2.5,3.5
+109,Suites Bintaro C,Jakarta Timur,2BR,52.5,8120000,"AC, Furnished, Gym, Laundry, Parkir",10.4,4.9
+110,Kost Eksklusif Kuningan II,Bekasi,3BR,88.9,13380000,"Gym, Laundry, Taman Bermain",3.27,3.6
+111,Kost Eksklusif Grand Galaxy C,Jakarta Barat,Studio,21.9,3090000,"Furnished, Keamanan 24 Jam, Kolam Renang, Minimarket, Parkir, Taman Bermain",5.41,4.3
+112,Residence Senayan B,Jakarta Selatan,Studio,26.1,4310000,"Keamanan 24 Jam, Kolam Renang, Minimarket, Taman Bermain",9.02,4.6
+113,Residence Cikini C,Depok,2BR,53.4,7270000,"AC, Furnished, Kolam Renang, Laundry, Minimarket, Taman Bermain",7.3,3.8
+114,Residence Royal Mediterania C,Jakarta Utara,1BR,44.3,3560000,"AC, Akses Kartu, Gym, Keamanan 24 Jam, Laundry, Parkir",2.31,4.4
+115,Kost Eksklusif Cervino C,Bekasi,1BR,30.1,5630000,"AC, Akses Kartu, Furnished, Gym, Kolam Renang, Minimarket",5.48,4.7
+116,Kost Eksklusif Senayan A,Jakarta Pusat,2BR,57.8,6800000,"AC, Akses Kartu, Furnished, Gym, Kolam Renang, Parkir",1.75,3.6
+117,Residence Permata II,Bekasi,3BR,115.0,16950000,"Furnished, Minimarket, Taman Bermain",0.98,3.4
+118,Tower Cikini C,Jakarta Pusat,3BR,97.7,19050000,"Furnished, Gym, Keamanan 24 Jam, Minimarket, Taman Bermain",6.27,4.7
+119,Residence Green Bay II,Jakarta Utara,1BR,38.8,4880000,"AC, Akses Kartu, Furnished, Gym, Taman Bermain",1.59,3.3
+120,Kost Eksklusif Cervino C,Depok,Studio,27.9,3100000,"Furnished, Kolam Renang, Laundry, Parkir, Taman Bermain",0.64,4.0
+121,Tower Margonda C,Tangerang,2BR,55.9,7750000,"AC, Gym, Keamanan 24 Jam, Minimarket, Parkir, Taman Bermain",1.98,5.0
+122,Kost Eksklusif Grand Galaxy B,Jakarta Pusat,2BR,58.0,6770000,"Akses Kartu, Gym, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",1.56,4.9
+123,Kost Eksklusif Pondok Indah B,Jakarta Pusat,2BR,72.7,9760000,"AC, Kolam Renang, Laundry, Minimarket, Parkir, Taman Bermain",2.0,3.4
+124,Residence Pluit C,Depok,Studio,18.6,3490000,"AC, Akses Kartu, Kolam Renang, Laundry, Minimarket, Parkir",10.6,4.5
+125,Tower Royal Mediterania II,Depok,Studio,22.8,3640000,"AC, Akses Kartu, Gym, Laundry, Minimarket",2.42,3.2
+126,Apartemen Kemang B,Jakarta Barat,3BR,89.3,14890000,"AC, Keamanan 24 Jam, Kolam Renang, Laundry, Parkir",6.74,4.4
+127,Kost Eksklusif Cikini II,Bekasi,3BR,74.7,14150000,"AC, Keamanan 24 Jam, Laundry, Minimarket, Taman Bermain",1.76,4.0
+128,Kost Eksklusif Green Bay B,Jakarta Utara,3BR,118.0,9950000,"AC, Akses Kartu, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",8.12,4.4
+129,Residence Sudirman I,Bekasi,1BR,36.9,5300000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang, Minimarket, Parkir",9.32,3.6
+130,Kost Eksklusif Margonda I,Jakarta Pusat,3BR,109.9,13930000,"Akses Kartu, Keamanan 24 Jam, Parkir",11.05,4.1
+131,Kost Eksklusif Cervino B,Depok,1BR,35.8,4830000,"Gym, Keamanan 24 Jam, Minimarket, Parkir, Taman Bermain",6.6,4.9
+132,Kost Eksklusif Bintaro I,Jakarta Utara,2BR,64.7,7760000,"AC, Akses Kartu, Furnished, Keamanan 24 Jam, Kolam Renang, Minimarket",5.92,4.6
+133,Tower Permata C,Jakarta Pusat,2BR,41.5,10720000,"AC, Akses Kartu, Laundry, Minimarket, Parkir",11.1,3.3
+134,Suites Casablanca B,Jakarta Timur,1BR,28.9,5760000,"Gym, Keamanan 24 Jam, Kolam Renang, Laundry",2.79,3.0
+135,Kost Eksklusif Kelapa Gading II,Jakarta Pusat,3BR,107.4,18190000,"AC, Furnished, Kolam Renang, Laundry, Minimarket",7.84,4.5
+136,Kost Eksklusif Casablanca C,Jakarta Selatan,1BR,35.1,9570000,"AC, Akses Kartu, Keamanan 24 Jam, Kolam Renang, Minimarket, Taman Bermain",0.53,3.6
+137,Tower Kuningan A,Bekasi,1BR,42.5,4670000,"Furnished, Keamanan 24 Jam, Minimarket",2.39,4.5
+138,Residence Thamrin I,Jakarta Utara,1BR,31.0,5640000,"Akses Kartu, Furnished, Gym, Kolam Renang, Parkir, Taman Bermain",10.77,3.6
+139,Residence Kemang A,Jakarta Timur,Studio,21.1,2970000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang, Taman Bermain",9.07,3.9
+140,Residence Thamrin I,Jakarta Pusat,3BR,109.6,19820000,"AC, Furnished, Parkir",9.26,3.3
+141,Tower Senayan II,Depok,3BR,110.6,14300000,"AC, Gym, Minimarket, Parkir",9.11,3.2
+142,Suites Kemang I,Jakarta Timur,1BR,30.8,5640000,"AC, Gym, Minimarket, Taman Bermain",5.36,3.3
+143,Residence Green Bay A,Tangerang,3BR,101.7,11470000,"AC, Akses Kartu, Kolam Renang, Laundry, Taman Bermain",8.11,3.1
+144,Tower Bintaro I,Depok,Studio,24.5,2620000,"AC, Gym, Kolam Renang, Laundry, Minimarket, Parkir",10.74,4.7
+145,Suites Cikini B,Tangerang,3BR,70.2,14710000,"AC, Furnished, Gym, Keamanan 24 Jam",10.51,4.5
+146,Residence Pluit B,Jakarta Timur,Studio,27.1,4460000,"Akses Kartu, Gym, Keamanan 24 Jam, Laundry, Minimarket, Parkir",5.61,4.9
+147,Apartemen Royal Mediterania A,Jakarta Barat,Studio,27.7,3340000,"Gym, Parkir, Taman Bermain",9.22,3.9
+148,Residence Green Bay C,Jakarta Selatan,1BR,40.6,5620000,"AC, Akses Kartu, Keamanan 24 Jam",2.69,4.2
+149,Kost Eksklusif Green Bay B,Depok,1BR,33.1,3860000,"AC, Akses Kartu, Kolam Renang, Laundry",7.96,4.3
+150,Suites Kuningan II,Tangerang,3BR,68.0,9760000,"Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Laundry, Parkir",7.76,3.9
+151,Kost Eksklusif Cikini B,Jakarta Timur,2BR,70.0,5580000,"Akses Kartu, Laundry, Taman Bermain",5.61,3.8
+152,Suites Royal Mediterania II,Jakarta Utara,1BR,33.6,3700000,"Akses Kartu, Gym, Keamanan 24 Jam, Kolam Renang, Parkir",5.45,3.1
+153,Apartemen Menteng B,Jakarta Barat,1BR,41.7,4970000,"Furnished, Keamanan 24 Jam, Minimarket, Parkir",8.09,4.9
+154,Suites Permata C,Jakarta Barat,3BR,124.4,12570000,"Akses Kartu, Furnished, Keamanan 24 Jam, Laundry, Parkir, Taman Bermain",8.47,3.6
+155,Kost Eksklusif Kelapa Gading B,Depok,3BR,95.3,13420000,"Akses Kartu, Furnished, Kolam Renang, Parkir, Taman Bermain",8.7,3.0
+156,Suites Tebet I,Tangerang,2BR,45.3,6320000,"Akses Kartu, Furnished, Keamanan 24 Jam, Minimarket",4.62,3.3
+157,Apartemen Sudirman I,Depok,1BR,30.4,4870000,"Akses Kartu, Gym, Kolam Renang",2.29,3.3
+158,Kost Eksklusif Permata I,Jakarta Timur,Studio,26.5,2520000,"Akses Kartu, Kolam Renang, Laundry, Minimarket, Taman Bermain",6.12,3.0
+159,Residence Royal Mediterania II,Jakarta Utara,2BR,40.6,8250000,"Akses Kartu, Gym, Keamanan 24 Jam, Taman Bermain",8.12,3.5
+160,Apartemen Senayan I,Depok,2BR,67.8,5320000,"Akses Kartu, Furnished, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",11.52,3.8
+161,Suites Pluit A,Bekasi,Studio,25.6,3910000,"AC, Akses Kartu, Furnished, Gym, Kolam Renang, Laundry",1.08,4.8
+162,Kost Eksklusif Kelapa Gading II,Jakarta Utara,Studio,20.2,4920000,"AC, Akses Kartu, Gym, Laundry",0.29,4.7
+163,Apartemen Grand Galaxy B,Tangerang,2BR,53.4,7960000,"Akses Kartu, Furnished, Kolam Renang",9.51,4.7
+164,Residence Green Bay I,Depok,3BR,128.0,9610000,"AC, Akses Kartu, Furnished, Minimarket, Parkir, Taman Bermain",7.65,3.2
+165,Apartemen Sudirman C,Jakarta Utara,1BR,40.1,3710000,"Akses Kartu, Furnished, Kolam Renang, Laundry",1.94,3.9
+166,Kost Eksklusif Royal Mediterania C,Jakarta Utara,Studio,19.6,2870000,"AC, Akses Kartu, Gym, Keamanan 24 Jam, Kolam Renang, Taman Bermain",5.44,4.7
+167,Suites Kuningan B,Jakarta Selatan,2BR,54.5,10920000,"Akses Kartu, Furnished, Keamanan 24 Jam, Taman Bermain",6.76,3.5
+168,Suites Royal Mediterania II,Jakarta Utara,3BR,74.5,8340000,"Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Minimarket",3.38,3.4
+169,Residence Cervino C,Jakarta Barat,1BR,33.2,5870000,"AC, Akses Kartu, Furnished, Minimarket, Parkir, Taman Bermain",4.05,4.2
+170,Suites Alam Sutera A,Jakarta Timur,3BR,85.4,14720000,"Akses Kartu, Furnished, Keamanan 24 Jam, Minimarket, Parkir",11.63,4.9
+171,Suites Tebet B,Jakarta Timur,1BR,39.6,4880000,"AC, Furnished, Kolam Renang, Laundry, Minimarket, Parkir",11.44,4.3
+172,Kost Eksklusif Cikini I,Jakarta Timur,2BR,63.1,7860000,"Laundry, Minimarket, Taman Bermain",9.49,4.1
+173,Tower Grand Galaxy A,Depok,Studio,19.3,3000000,"Kolam Renang, Laundry, Minimarket, Taman Bermain",8.01,3.0
+174,Kost Eksklusif Cikini B,Jakarta Utara,1BR,36.7,4800000,"Furnished, Laundry, Minimarket, Parkir",7.01,3.7
+175,Residence Cikini I,Jakarta Selatan,3BR,71.8,14380000,"AC, Furnished, Parkir, Taman Bermain",1.48,3.7
+176,Residence Kelapa Gading II,Jakarta Barat,3BR,111.9,12260000,"Furnished, Gym, Kolam Renang",0.9,3.3
+177,Kost Eksklusif Menteng I,Jakarta Pusat,2BR,59.6,11010000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Laundry",4.92,4.2
+178,Tower Margonda B,Tangerang,Studio,26.5,2910000,"Gym, Keamanan 24 Jam, Taman Bermain",9.05,3.9
+179,Residence Cervino II,Jakarta Utara,3BR,99.3,12110000,"AC, Furnished, Gym, Keamanan 24 Jam, Parkir, Taman Bermain",7.2,4.2
+180,Kost Eksklusif Kuningan II,Jakarta Pusat,2BR,44.1,7690000,"Gym, Keamanan 24 Jam, Laundry, Minimarket, Parkir, Taman Bermain",8.35,3.3
+181,Kost Eksklusif Cikini I,Jakarta Utara,1BR,31.2,5600000,"Gym, Keamanan 24 Jam, Kolam Renang, Minimarket, Parkir",7.47,3.8
+182,Tower Kelapa Gading II,Bekasi,3BR,111.2,10550000,"AC, Kolam Renang, Parkir",2.09,3.6
+183,Suites Casablanca B,Bekasi,3BR,100.7,7910000,"AC, Akses Kartu, Gym, Kolam Renang, Minimarket",1.46,3.6
+184,Kost Eksklusif Grand Galaxy B,Jakarta Selatan,3BR,82.1,16920000,"Furnished, Parkir, Taman Bermain",10.4,4.2
+185,Tower Cikini A,Jakarta Timur,1BR,41.7,4930000,"AC, Akses Kartu, Furnished, Minimarket",6.43,3.3
+186,Residence Bintaro I,Tangerang,Studio,29.9,4230000,"Furnished, Keamanan 24 Jam, Laundry, Parkir",1.61,3.3
+187,Tower Pondok Indah I,Jakarta Utara,3BR,89.4,7600000,"AC, Akses Kartu, Laundry",9.56,3.7
+188,Suites Menteng I,Jakarta Selatan,Studio,26.8,4550000,"Akses Kartu, Laundry, Parkir",4.36,3.5
+189,Apartemen Casablanca B,Jakarta Utara,2BR,59.2,5520000,"Furnished, Gym, Kolam Renang, Parkir, Taman Bermain",10.24,3.9
+190,Apartemen Alam Sutera B,Jakarta Selatan,3BR,78.2,15340000,"AC, Furnished, Gym, Keamanan 24 Jam",7.83,3.1
+191,Residence Cikini I,Jakarta Utara,1BR,35.3,3730000,"AC, Gym, Keamanan 24 Jam, Minimarket",1.23,3.0
+192,Apartemen Casablanca C,Depok,Studio,29.9,3340000,"Gym, Laundry, Parkir",1.67,3.7
+193,Residence Pondok Indah C,Jakarta Utara,1BR,34.5,5530000,"AC, Akses Kartu, Gym, Kolam Renang",10.51,4.4
+194,Tower Thamrin B,Jakarta Pusat,3BR,105.0,13100000,"Furnished, Gym, Laundry, Parkir",10.77,3.6
+195,Suites Cervino A,Jakarta Barat,1BR,37.4,5000000,"AC, Akses Kartu, Parkir",7.33,4.6
+196,Tower Thamrin I,Jakarta Timur,3BR,90.1,8930000,"Akses Kartu, Furnished, Kolam Renang",7.69,4.7
+197,Tower Menteng A,Tangerang,2BR,59.1,5690000,"Gym, Kolam Renang, Taman Bermain",5.71,4.8
+198,Apartemen Cikini B,Tangerang,2BR,62.0,7000000,"Akses Kartu, Gym, Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket",5.04,4.9
+199,Apartemen Kelapa Gading A,Jakarta Pusat,2BR,53.7,10300000,"AC, Laundry, Parkir",8.2,4.8
+200,Apartemen Kuningan I,Jakarta Barat,3BR,104.8,7440000,"Furnished, Gym, Keamanan 24 Jam, Kolam Renang",8.03,4.9
+201,Tower Cikini A,Jakarta Utara,1BR,34.3,5370000,"Furnished, Kolam Renang, Laundry",10.49,3.5
+202,Apartemen Green Bay A,Jakarta Barat,3BR,94.6,9880000,"AC, Furnished, Keamanan 24 Jam, Laundry",6.05,3.5
+203,Tower Kelapa Gading I,Jakarta Selatan,Studio,28.3,3050000,"Gym, Keamanan 24 Jam, Kolam Renang, Laundry",4.43,4.8
+204,Suites Senayan I,Depok,2BR,68.9,7290000,"Keamanan 24 Jam, Kolam Renang, Parkir",1.52,4.7
+205,Kost Eksklusif Tebet B,Jakarta Utara,2BR,43.0,6830000,"AC, Keamanan 24 Jam, Minimarket, Parkir, Taman Bermain",4.49,4.5
+206,Suites Cervino A,Jakarta Timur,1BR,28.1,4530000,"Akses Kartu, Furnished, Kolam Renang, Laundry, Taman Bermain",2.87,3.4
+207,Suites Alam Sutera I,Jakarta Timur,3BR,97.0,7480000,"AC, Gym, Kolam Renang, Laundry, Parkir",11.96,4.9
+208,Tower Pluit C,Jakarta Barat,Studio,24.1,3770000,"Keamanan 24 Jam, Laundry, Parkir",4.79,4.9
+209,Suites Pondok Indah C,Tangerang,2BR,51.1,7120000,"Gym, Keamanan 24 Jam, Taman Bermain",0.99,3.8
+210,Residence Margonda B,Depok,1BR,35.7,4660000,"AC, Keamanan 24 Jam, Kolam Renang",10.24,3.2
+211,Kost Eksklusif Kelapa Gading A,Jakarta Timur,2BR,53.9,5200000,"AC, Kolam Renang, Laundry, Minimarket",3.66,3.9
+212,Apartemen Menteng I,Jakarta Pusat,Studio,18.1,5810000,"AC, Furnished, Gym, Kolam Renang, Laundry, Taman Bermain",1.66,4.6
+213,Residence Alam Sutera B,Jakarta Barat,2BR,44.3,10890000,"Furnished, Kolam Renang, Laundry, Minimarket, Parkir, Taman Bermain",0.7,4.8
+214,Suites Kemang A,Jakarta Utara,2BR,55.6,5590000,"AC, Laundry, Minimarket, Taman Bermain",7.41,3.6
+215,Kost Eksklusif Tebet C,Jakarta Pusat,3BR,78.0,18370000,"Furnished, Laundry, Minimarket",7.61,4.8
+216,Kost Eksklusif Alam Sutera II,Depok,3BR,82.6,7210000,"AC, Kolam Renang, Minimarket",7.21,5.0
+217,Residence Kuningan B,Jakarta Pusat,Studio,21.0,3900000,"Furnished, Laundry, Parkir",9.52,4.2
+218,Tower Kuningan I,Depok,Studio,26.4,3200000,"AC, Minimarket, Parkir, Taman Bermain",6.86,3.1
+219,Tower Kemang A,Jakarta Selatan,1BR,38.2,4600000,"Furnished, Keamanan 24 Jam, Laundry, Taman Bermain",4.05,3.3
+220,Residence Grand Galaxy I,Jakarta Pusat,Studio,28.2,5880000,"Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Laundry, Taman Bermain",4.55,4.3
+221,Suites Green Bay A,Jakarta Pusat,2BR,47.8,9080000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang, Taman Bermain",3.75,3.4
+222,Apartemen Margonda I,Depok,1BR,38.9,3760000,"Furnished, Gym, Keamanan 24 Jam, Parkir, Taman Bermain",6.0,3.0
+223,Suites Kuningan I,Jakarta Timur,1BR,39.8,4380000,"Kolam Renang, Laundry, Minimarket",9.47,4.0
+224,Apartemen Cervino A,Tangerang,2BR,59.1,5410000,"Gym, Keamanan 24 Jam, Laundry, Minimarket",5.81,3.6
+225,Kost Eksklusif Royal Mediterania I,Jakarta Barat,Studio,22.1,4280000,"Akses Kartu, Furnished, Gym",2.01,4.4
+226,Tower Cervino B,Tangerang,1BR,38.3,5430000,"AC, Akses Kartu, Furnished, Laundry",0.74,3.2
+227,Residence Kuningan C,Tangerang,3BR,75.0,9890000,"Kolam Renang, Laundry, Minimarket, Parkir, Taman Bermain",5.19,5.0
+228,Suites Alam Sutera B,Bekasi,Studio,21.7,3290000,"Akses Kartu, Gym, Keamanan 24 Jam, Laundry, Taman Bermain",5.92,3.9
+229,Tower Permata I,Jakarta Utara,3BR,95.2,8810000,"Akses Kartu, Gym, Keamanan 24 Jam",3.3,4.9
+230,Apartemen Cikini II,Jakarta Timur,Studio,28.1,4140000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Minimarket, Parkir, Taman Bermain",5.08,4.8
+231,Apartemen Grand Galaxy B,Jakarta Pusat,Studio,29.4,4720000,"Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",2.09,5.0
+232,Kost Eksklusif Green Bay II,Jakarta Pusat,2BR,51.2,10770000,"AC, Akses Kartu, Furnished, Kolam Renang, Minimarket, Parkir",1.14,4.6
+233,Kost Eksklusif Alam Sutera I,Jakarta Barat,3BR,74.7,11530000,"AC, Gym, Taman Bermain",7.03,3.5
+234,Suites Pluit C,Bekasi,3BR,67.4,9200000,"Furnished, Gym, Kolam Renang, Laundry, Minimarket, Taman Bermain",1.81,3.0
+235,Suites Margonda C,Jakarta Utara,2BR,49.8,6970000,"AC, Keamanan 24 Jam, Parkir",8.38,4.5
+236,Tower Cikini I,Jakarta Barat,1BR,35.5,5780000,"AC, Akses Kartu, Furnished, Gym, Kolam Renang, Minimarket",4.95,3.3
+237,Kost Eksklusif Bintaro A,Jakarta Selatan,1BR,31.3,7630000,"Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket, Parkir",3.07,4.4
+238,Apartemen Cervino A,Jakarta Timur,2BR,57.1,6780000,"Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Laundry, Taman Bermain",11.53,3.8
+239,Kost Eksklusif Sudirman B,Jakarta Pusat,1BR,42.6,6840000,"Akses Kartu, Furnished, Gym, Kolam Renang, Parkir, Taman Bermain",3.3,3.5
+240,Kost Eksklusif Bintaro II,Jakarta Utara,2BR,54.8,6510000,"AC, Akses Kartu, Furnished, Minimarket, Parkir",4.25,3.2
+241,Kost Eksklusif Kelapa Gading A,Depok,2BR,50.4,6780000,"AC, Akses Kartu, Gym, Laundry, Taman Bermain",0.86,4.6
+242,Apartemen Green Bay II,Tangerang,2BR,63.8,7890000,"AC, Akses Kartu, Furnished, Laundry, Parkir",7.9,4.6
+243,Kost Eksklusif Kuningan C,Depok,1BR,39.7,5100000,"AC, Akses Kartu, Furnished, Keamanan 24 Jam, Laundry",5.76,3.2
+244,Tower Grand Galaxy C,Jakarta Pusat,2BR,65.4,10000000,"Furnished, Gym, Minimarket, Parkir, Taman Bermain",11.37,3.7
+245,Suites Cikini C,Jakarta Utara,3BR,120.3,10760000,"Gym, Minimarket, Parkir",10.41,3.8
+246,Tower Kuningan C,Jakarta Pusat,1BR,44.9,6090000,"Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Parkir, Taman Bermain",10.72,4.3
+247,Suites Tebet I,Jakarta Selatan,3BR,82.8,16150000,"Furnished, Gym, Keamanan 24 Jam, Laundry, Minimarket, Parkir",9.2,3.0
+248,Tower Cervino B,Jakarta Timur,2BR,73.3,8570000,"Gym, Kolam Renang, Parkir, Taman Bermain",9.11,3.2
+249,Tower Tebet C,Jakarta Utara,1BR,29.1,3610000,"Akses Kartu, Furnished, Gym, Minimarket, Parkir, Taman Bermain",11.39,4.5
+250,Apartemen Alam Sutera A,Jakarta Pusat,3BR,66.2,12290000,"Akses Kartu, Keamanan 24 Jam, Taman Bermain",2.61,3.8
+251,Suites Bintaro A,Jakarta Utara,Studio,25.1,2600000,"Gym, Kolam Renang, Laundry",1.39,4.1
+252,Suites Casablanca II,Bekasi,1BR,31.5,6220000,"AC, Akses Kartu, Keamanan 24 Jam",0.21,4.4
+253,Suites Cervino B,Jakarta Barat,2BR,44.0,5430000,"AC, Akses Kartu, Keamanan 24 Jam, Parkir",2.46,3.1
+254,Residence Senayan II,Bekasi,1BR,39.7,4700000,"Gym, Minimarket, Taman Bermain",2.89,3.2
+255,Apartemen Cervino C,Jakarta Barat,2BR,62.6,6830000,"Gym, Kolam Renang, Laundry, Minimarket, Taman Bermain",11.73,4.6
+256,Tower Alam Sutera I,Depok,3BR,113.0,7760000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang",9.12,4.9
+257,Residence Casablanca B,Jakarta Utara,Studio,22.5,3190000,"AC, Furnished, Laundry, Minimarket, Parkir, Taman Bermain",1.45,4.4
+258,Suites Tebet A,Jakarta Selatan,1BR,29.8,7490000,"AC, Furnished, Gym, Keamanan 24 Jam, Kolam Renang, Laundry",6.87,4.8
+259,Residence Tebet C,Bekasi,Studio,18.8,4710000,"Akses Kartu, Furnished, Gym, Parkir",0.25,4.3
+260,Suites Kuningan A,Tangerang,1BR,42.3,4900000,"Keamanan 24 Jam, Kolam Renang, Minimarket",11.85,4.5
+261,Suites Senayan I,Depok,1BR,33.6,4200000,"AC, Akses Kartu, Gym, Laundry, Parkir, Taman Bermain",6.13,3.9
+262,Apartemen Royal Mediterania II,Jakarta Barat,3BR,113.4,7140000,"Akses Kartu, Kolam Renang, Taman Bermain",4.9,4.3
+263,Suites Casablanca A,Jakarta Timur,3BR,126.8,11610000,"Akses Kartu, Furnished, Keamanan 24 Jam, Laundry, Minimarket, Taman Bermain",0.75,4.5
+264,Apartemen Kuningan I,Jakarta Timur,Studio,22.1,4160000,"Akses Kartu, Furnished, Kolam Renang, Minimarket, Taman Bermain",11.58,3.3
+265,Suites Kemang II,Tangerang,Studio,21.1,2890000,"Furnished, Keamanan 24 Jam, Kolam Renang, Minimarket, Parkir, Taman Bermain",1.54,3.2
+266,Suites Cikini B,Bekasi,3BR,107.8,14650000,"AC, Akses Kartu, Kolam Renang, Laundry, Parkir, Taman Bermain",1.7,4.4
+267,Suites Thamrin B,Jakarta Pusat,1BR,29.8,6800000,"AC, Akses Kartu, Furnished, Keamanan 24 Jam, Laundry, Parkir",3.93,3.8
+268,Residence Kuningan II,Jakarta Utara,2BR,64.9,8740000,"AC, Furnished, Minimarket, Parkir",7.63,4.1
+269,Apartemen Sudirman I,Depok,Studio,27.1,3620000,"AC, Akses Kartu, Kolam Renang, Laundry, Minimarket, Taman Bermain",7.04,3.3
+270,Kost Eksklusif Kemang C,Jakarta Selatan,1BR,32.5,7630000,"AC, Kolam Renang, Laundry, Parkir",8.23,4.6
+271,Tower Permata A,Jakarta Barat,1BR,40.6,4900000,"Akses Kartu, Furnished, Kolam Renang, Laundry, Parkir",2.93,3.0
+272,Residence Cervino I,Jakarta Utara,1BR,38.5,5450000,"Akses Kartu, Furnished, Laundry, Parkir",10.45,3.4
+273,Residence Kuningan II,Jakarta Barat,1BR,44.4,5340000,"AC, Akses Kartu, Laundry",1.52,4.7
+274,Kost Eksklusif Permata C,Jakarta Selatan,2BR,56.3,10570000,"AC, Minimarket, Taman Bermain",11.15,3.1
+275,Tower Kelapa Gading B,Depok,1BR,44.3,4800000,"Akses Kartu, Kolam Renang, Laundry, Taman Bermain",9.46,4.3
+276,Residence Royal Mediterania II,Depok,2BR,50.3,8800000,"Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Kolam Renang, Parkir",7.46,3.5
+277,Suites Tebet A,Jakarta Selatan,2BR,53.3,10010000,"AC, Akses Kartu, Furnished, Kolam Renang, Laundry",3.15,3.6
+278,Suites Casablanca B,Jakarta Timur,2BR,58.0,8790000,"Akses Kartu, Gym, Parkir",2.09,4.1
+279,Tower Permata A,Tangerang,Studio,27.0,2810000,"Akses Kartu, Gym, Kolam Renang, Minimarket, Taman Bermain",5.56,4.1
+280,Kost Eksklusif Senayan II,Jakarta Timur,2BR,54.3,6800000,"AC, Gym, Kolam Renang, Laundry, Taman Bermain",4.91,3.1
+281,Suites Bintaro A,Jakarta Barat,2BR,72.5,5420000,"AC, Gym, Laundry, Parkir, Taman Bermain",9.46,3.9
+282,Kost Eksklusif Thamrin A,Jakarta Timur,1BR,40.7,5490000,"AC, Akses Kartu, Furnished, Keamanan 24 Jam, Kolam Renang",10.21,3.1
+283,Residence Royal Mediterania C,Tangerang,Studio,21.7,4000000,"Akses Kartu, Gym, Keamanan 24 Jam, Laundry, Parkir",10.85,3.4
+284,Apartemen Menteng II,Jakarta Pusat,Studio,28.2,6110000,"AC, Gym, Taman Bermain",5.59,4.0
+285,Suites Margonda II,Depok,2BR,44.5,7620000,"Furnished, Minimarket, Parkir",1.29,4.3
+286,Tower Tebet I,Jakarta Pusat,2BR,68.3,10900000,"AC, Furnished, Gym, Laundry",3.83,3.9
+287,Apartemen Senayan A,Jakarta Utara,3BR,100.9,8410000,"Akses Kartu, Furnished, Keamanan 24 Jam, Parkir, Taman Bermain",7.32,4.7
+288,Residence Pondok Indah II,Jakarta Selatan,3BR,115.0,10510000,"AC, Furnished, Gym, Keamanan 24 Jam, Laundry, Taman Bermain",3.2,4.0
+289,Residence Green Bay II,Tangerang,2BR,57.6,7650000,"Akses Kartu, Gym, Keamanan 24 Jam, Minimarket",10.19,4.3
+290,Kost Eksklusif Alam Sutera I,Jakarta Pusat,3BR,126.0,9900000,"Furnished, Gym, Kolam Renang, Parkir, Taman Bermain",2.86,3.9
+291,Suites Alam Sutera II,Bekasi,Studio,18.5,3800000,"AC, Akses Kartu, Furnished, Keamanan 24 Jam, Parkir",1.33,4.3
+292,Kost Eksklusif Thamrin I,Jakarta Barat,2BR,53.2,8630000,"AC, Akses Kartu, Furnished, Kolam Renang, Minimarket",6.24,3.3
+293,Apartemen Tebet I,Jakarta Barat,2BR,47.4,5750000,"Furnished, Laundry, Parkir",4.41,4.0
+294,Residence Pluit B,Jakarta Pusat,3BR,66.5,9660000,"Keamanan 24 Jam, Kolam Renang, Taman Bermain",2.02,4.0
+295,Suites Kuningan B,Tangerang,Studio,28.5,3960000,"Akses Kartu, Minimarket, Parkir",9.87,4.7
+296,Apartemen Sudirman B,Jakarta Pusat,1BR,38.6,5890000,"Akses Kartu, Gym, Laundry, Minimarket, Parkir, Taman Bermain",8.26,4.0
+297,Apartemen Tebet B,Tangerang,1BR,38.3,3940000,"Akses Kartu, Gym, Taman Bermain",10.83,4.8
+298,Kost Eksklusif Casablanca I,Jakarta Selatan,3BR,98.9,12040000,"AC, Furnished, Laundry, Minimarket",6.4,3.3
+299,Kost Eksklusif Cikini A,Bekasi,1BR,43.5,3710000,"AC, Furnished, Kolam Renang, Laundry, Minimarket, Parkir",7.22,4.0
+300,Kost Eksklusif Grand Galaxy II,Tangerang,1BR,39.7,4290000,"AC, Akses Kartu, Laundry, Taman Bermain",4.41,3.7
+301,Tower Bintaro B,Jakarta Utara,3BR,114.1,10310000,"AC, Furnished, Keamanan 24 Jam, Laundry, Minimarket, Taman Bermain",9.43,4.7
+302,Kost Eksklusif Royal Mediterania A,Jakarta Barat,1BR,35.6,5250000,"Akses Kartu, Furnished, Laundry, Taman Bermain",2.03,3.3
+303,Suites Bintaro II,Jakarta Selatan,Studio,27.9,4550000,"AC, Furnished, Gym, Kolam Renang, Parkir",1.15,4.3
+304,Kost Eksklusif Cikini B,Jakarta Utara,Studio,29.3,4140000,"AC, Gym, Kolam Renang, Minimarket, Parkir, Taman Bermain",7.72,4.2
+305,Apartemen Senayan A,Jakarta Selatan,2BR,48.4,6160000,"AC, Akses Kartu, Furnished, Gym, Laundry, Minimarket",11.96,4.1
+306,Residence Grand Galaxy II,Depok,2BR,73.7,6110000,"Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket",7.32,3.2
+307,Suites Kelapa Gading C,Jakarta Barat,2BR,51.9,5470000,"AC, Akses Kartu, Minimarket, Parkir, Taman Bermain",6.21,4.9
+308,Residence Margonda I,Bekasi,3BR,123.3,13900000,"Akses Kartu, Furnished, Gym, Laundry, Parkir",5.84,4.9
+309,Tower Alam Sutera B,Jakarta Selatan,2BR,48.7,7170000,"Akses Kartu, Keamanan 24 Jam, Minimarket",9.87,4.8
+310,Residence Menteng B,Jakarta Utara,1BR,44.1,5210000,"Akses Kartu, Gym, Keamanan 24 Jam, Laundry, Parkir, Taman Bermain",10.93,4.7
+311,Kost Eksklusif Margonda I,Depok,1BR,41.2,3800000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Laundry, Parkir, Taman Bermain",1.03,4.8
+312,Kost Eksklusif Kemang II,Jakarta Utara,3BR,76.9,13110000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",6.18,3.7
+313,Tower Alam Sutera II,Jakarta Pusat,3BR,128.5,16260000,"Gym, Laundry, Parkir",8.3,4.7
+314,Suites Pluit I,Jakarta Pusat,2BR,48.3,9110000,"Furnished, Keamanan 24 Jam, Laundry, Minimarket, Parkir, Taman Bermain",4.45,3.4
+315,Suites Tebet B,Jakarta Pusat,1BR,41.8,7220000,"Akses Kartu, Gym, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",6.71,5.0
+316,Apartemen Pondok Indah C,Depok,3BR,84.5,11500000,"Akses Kartu, Gym, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",6.86,3.5
+317,Tower Alam Sutera C,Depok,2BR,52.0,6650000,"Akses Kartu, Keamanan 24 Jam, Laundry, Taman Bermain",4.28,4.3
+318,Kost Eksklusif Green Bay I,Bekasi,3BR,122.8,10050000,"Akses Kartu, Furnished, Keamanan 24 Jam, Laundry",3.51,4.7
+319,Kost Eksklusif Cikini I,Jakarta Barat,Studio,19.9,2960000,"AC, Keamanan 24 Jam, Laundry, Parkir, Taman Bermain",3.87,3.8
+320,Apartemen Casablanca A,Jakarta Pusat,Studio,19.5,3710000,"Keamanan 24 Jam, Laundry, Parkir",8.95,4.9
+321,Apartemen Bintaro C,Bekasi,Studio,18.3,3290000,"AC, Gym, Keamanan 24 Jam",9.2,3.5
+322,Suites Pondok Indah II,Jakarta Utara,3BR,105.7,8050000,"Akses Kartu, Furnished, Kolam Renang",10.08,4.9
+323,Residence Senayan I,Bekasi,1BR,44.5,5240000,"AC, Keamanan 24 Jam, Laundry, Minimarket, Parkir, Taman Bermain",2.21,3.6
+324,Apartemen Tebet I,Tangerang,2BR,45.5,5040000,"AC, Akses Kartu, Furnished, Minimarket",6.33,3.6
+325,Residence Kuningan I,Tangerang,2BR,60.9,8190000,"Akses Kartu, Laundry, Parkir, Taman Bermain",6.62,4.7
+326,Apartemen Kuningan B,Jakarta Timur,2BR,42.8,7500000,"AC, Akses Kartu, Gym, Parkir, Taman Bermain",6.25,3.6
+327,Residence Casablanca C,Bekasi,3BR,82.7,11980000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang",2.33,3.5
+328,Apartemen Margonda A,Bekasi,Studio,20.8,2800000,"AC, Keamanan 24 Jam, Laundry, Minimarket, Parkir",5.97,4.7
+329,Residence Bintaro I,Jakarta Pusat,Studio,21.2,4300000,"Furnished, Gym, Kolam Renang, Laundry, Taman Bermain",2.26,3.5
+330,Kost Eksklusif Cikini A,Jakarta Selatan,1BR,35.8,7080000,"AC, Furnished, Gym, Kolam Renang, Laundry, Minimarket",11.79,3.5
+331,Apartemen Kuningan C,Jakarta Utara,1BR,34.1,3630000,"Furnished, Laundry, Parkir",8.03,4.2
+332,Residence Tebet A,Tangerang,1BR,28.2,3600000,"Furnished, Gym, Keamanan 24 Jam, Kolam Renang, Laundry, Taman Bermain",9.42,4.4
+333,Tower Permata C,Depok,Studio,18.7,3790000,"Keamanan 24 Jam, Minimarket, Parkir",8.45,4.6
+334,Kost Eksklusif Tebet B,Bekasi,1BR,28.4,4440000,"AC, Akses Kartu, Keamanan 24 Jam, Kolam Renang, Minimarket",8.72,4.1
+335,Tower Pluit II,Depok,2BR,65.6,6100000,"Akses Kartu, Gym, Keamanan 24 Jam, Parkir",9.99,3.7
+336,Kost Eksklusif Tebet II,Jakarta Selatan,3BR,112.7,18620000,"Akses Kartu, Furnished, Gym, Laundry",4.43,3.3
+337,Apartemen Menteng A,Jakarta Utara,2BR,54.3,6290000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang",1.25,4.0
+338,Apartemen Sudirman B,Jakarta Barat,Studio,24.9,4170000,"AC, Akses Kartu, Furnished, Kolam Renang, Parkir",7.93,4.3
+339,Tower Senayan B,Jakarta Barat,3BR,117.1,7490000,"AC, Akses Kartu, Furnished, Kolam Renang, Minimarket, Taman Bermain",6.74,4.9
+340,Apartemen Green Bay C,Jakarta Barat,Studio,26.7,3560000,"Furnished, Keamanan 24 Jam, Laundry, Taman Bermain",2.35,4.3
+341,Kost Eksklusif Margonda C,Tangerang,Studio,20.0,2860000,"Akses Kartu, Keamanan 24 Jam, Laundry, Minimarket, Taman Bermain",4.88,3.8
+342,Apartemen Cervino II,Tangerang,2BR,61.3,7250000,"Akses Kartu, Furnished, Kolam Renang, Minimarket, Parkir",2.65,3.0
+343,Suites Alam Sutera B,Jakarta Pusat,2BR,40.2,11110000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Laundry, Taman Bermain",3.85,3.3
+344,Residence Tebet II,Depok,1BR,32.0,5530000,"Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Parkir, Taman Bermain",1.19,4.6
+345,Suites Casablanca B,Jakarta Barat,2BR,41.3,8230000,"Furnished, Laundry, Taman Bermain",4.64,4.5
+346,Suites Pondok Indah II,Jakarta Selatan,3BR,68.5,14150000,"Akses Kartu, Furnished, Keamanan 24 Jam, Kolam Renang, Parkir",6.82,4.2
+347,Tower Senayan I,Jakarta Barat,1BR,35.3,5470000,"AC, Gym, Kolam Renang, Minimarket, Parkir",1.86,4.0
+348,Suites Margonda II,Jakarta Pusat,1BR,36.2,5110000,"AC, Gym, Laundry, Parkir",6.9,3.2
+349,Kost Eksklusif Pondok Indah II,Tangerang,3BR,88.7,8520000,"AC, Furnished, Keamanan 24 Jam",4.2,3.3
+350,Tower Sudirman C,Jakarta Selatan,1BR,31.4,5990000,"Keamanan 24 Jam, Kolam Renang, Parkir",10.25,4.4
+351,Suites Royal Mediterania B,Jakarta Barat,2BR,55.8,5090000,"AC, Akses Kartu, Minimarket, Parkir",2.59,4.4
+352,Apartemen Senayan I,Jakarta Selatan,3BR,102.9,14880000,"AC, Furnished, Kolam Renang, Parkir, Taman Bermain",2.13,4.3
+353,Suites Royal Mediterania II,Depok,Studio,18.2,4230000,"Akses Kartu, Gym, Keamanan 24 Jam, Laundry",7.83,3.2
+354,Apartemen Alam Sutera C,Jakarta Timur,3BR,101.4,15780000,"Furnished, Gym, Laundry, Minimarket, Taman Bermain",0.57,3.7
+355,Kost Eksklusif Pluit B,Jakarta Utara,1BR,44.9,5950000,"AC, Kolam Renang, Laundry",3.38,3.3
+356,Tower Royal Mediterania C,Tangerang,1BR,29.5,4460000,"Akses Kartu, Keamanan 24 Jam, Laundry, Parkir",11.53,3.9
+357,Residence Green Bay B,Jakarta Pusat,1BR,39.1,6620000,"AC, Akses Kartu, Keamanan 24 Jam, Parkir",2.51,3.6
+358,Tower Thamrin B,Jakarta Barat,1BR,33.4,5700000,"AC, Furnished, Laundry, Parkir, Taman Bermain",8.75,3.2
+359,Apartemen Alam Sutera A,Jakarta Pusat,Studio,27.1,4670000,"Akses Kartu, Furnished, Parkir, Taman Bermain",6.85,4.4
+360,Residence Menteng B,Bekasi,1BR,36.5,5010000,"Gym, Keamanan 24 Jam, Laundry, Minimarket, Parkir",8.57,3.1
+361,Kost Eksklusif Tebet C,Jakarta Selatan,2BR,73.3,7860000,"Gym, Keamanan 24 Jam, Laundry, Minimarket",2.51,4.7
+362,Suites Kemang B,Jakarta Timur,3BR,91.3,7330000,"AC, Furnished, Kolam Renang, Laundry, Minimarket, Parkir",8.85,4.0
+363,Suites Cervino C,Tangerang,Studio,24.7,3530000,"AC, Minimarket, Parkir",7.6,3.9
+364,Kost Eksklusif Casablanca B,Tangerang,2BR,61.5,5220000,"Furnished, Gym, Minimarket, Taman Bermain",6.25,4.6
+365,Residence Casablanca A,Jakarta Pusat,3BR,91.9,13110000,"AC, Gym, Keamanan 24 Jam, Minimarket",7.12,3.2
+366,Residence Margonda II,Bekasi,2BR,43.0,7830000,"Akses Kartu, Kolam Renang, Laundry, Taman Bermain",8.75,4.7
+367,Residence Sudirman II,Jakarta Pusat,1BR,42.8,5300000,"AC, Gym, Keamanan 24 Jam, Kolam Renang, Minimarket",5.09,4.5
+368,Apartemen Royal Mediterania II,Jakarta Selatan,3BR,97.3,14960000,"Akses Kartu, Furnished, Laundry, Minimarket, Parkir, Taman Bermain",7.34,3.0
+369,Tower Senayan A,Jakarta Utara,1BR,28.8,3870000,"AC, Keamanan 24 Jam, Kolam Renang",7.87,3.2
+370,Tower Margonda C,Jakarta Pusat,1BR,39.4,6730000,"Furnished, Kolam Renang, Minimarket, Taman Bermain",7.18,4.8
+371,Kost Eksklusif Menteng B,Jakarta Barat,3BR,119.8,7520000,"AC, Furnished, Laundry",5.7,4.2
+372,Kost Eksklusif Alam Sutera B,Jakarta Barat,Studio,23.8,3880000,"AC, Furnished, Laundry, Minimarket, Taman Bermain",11.21,4.2
+373,Apartemen Menteng II,Bekasi,3BR,97.0,8440000,"Akses Kartu, Gym, Kolam Renang, Parkir, Taman Bermain",7.35,5.0
+374,Apartemen Cervino C,Tangerang,Studio,22.0,3620000,"AC, Akses Kartu, Parkir",7.69,4.0
+375,Tower Tebet I,Depok,Studio,19.4,3170000,"Furnished, Keamanan 24 Jam, Parkir",4.81,4.6
+376,Kost Eksklusif Permata A,Jakarta Pusat,3BR,75.1,14670000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket",10.76,3.4
+377,Suites Kuningan II,Depok,2BR,42.3,5600000,"AC, Akses Kartu, Keamanan 24 Jam, Laundry, Taman Bermain",10.1,3.2
+378,Kost Eksklusif Cervino B,Jakarta Utara,2BR,64.8,6090000,"AC, Furnished, Gym, Minimarket",1.13,3.2
+379,Kost Eksklusif Cervino C,Jakarta Selatan,1BR,43.5,5550000,"Akses Kartu, Furnished, Minimarket, Parkir",5.84,3.3
+380,Kost Eksklusif Senayan C,Jakarta Barat,1BR,31.5,3590000,"AC, Kolam Renang, Taman Bermain",4.71,3.9
+381,Tower Permata C,Jakarta Selatan,Studio,24.2,4820000,"Furnished, Gym, Keamanan 24 Jam, Parkir, Taman Bermain",6.97,4.5
+382,Kost Eksklusif Margonda C,Jakarta Barat,2BR,45.2,7390000,"Akses Kartu, Furnished, Parkir",0.28,3.3
+383,Apartemen Bintaro A,Jakarta Utara,1BR,30.9,4280000,"Furnished, Keamanan 24 Jam, Kolam Renang, Minimarket, Parkir, Taman Bermain",10.72,3.2
+384,Apartemen Pondok Indah II,Tangerang,1BR,40.0,5730000,"AC, Furnished, Gym, Keamanan 24 Jam, Minimarket, Taman Bermain",7.59,3.3
+385,Tower Bintaro B,Bekasi,Studio,23.5,3870000,"AC, Akses Kartu, Gym, Keamanan 24 Jam, Minimarket, Parkir",8.55,4.4
+386,Kost Eksklusif Green Bay B,Depok,2BR,55.9,5120000,"Akses Kartu, Keamanan 24 Jam, Laundry, Minimarket, Taman Bermain",5.76,4.0
+387,Residence Tebet I,Tangerang,Studio,21.9,3800000,"AC, Akses Kartu, Gym, Laundry, Parkir, Taman Bermain",9.53,3.1
+388,Kost Eksklusif Royal Mediterania I,Jakarta Timur,3BR,116.0,10480000,"Gym, Keamanan 24 Jam, Kolam Renang, Minimarket",9.47,3.7
+389,Kost Eksklusif Sudirman B,Jakarta Barat,3BR,76.5,17000000,"Akses Kartu, Furnished, Gym, Kolam Renang, Minimarket, Taman Bermain",0.93,4.3
+390,Apartemen Green Bay A,Bekasi,2BR,53.6,7310000,"AC, Furnished, Keamanan 24 Jam, Laundry, Taman Bermain",2.43,4.2
+391,Apartemen Cervino A,Tangerang,1BR,42.5,3660000,"Akses Kartu, Furnished, Kolam Renang",10.82,3.5
+392,Kost Eksklusif Bintaro C,Tangerang,2BR,64.9,6620000,"Gym, Keamanan 24 Jam, Minimarket, Taman Bermain",5.28,4.7
+393,Suites Royal Mediterania I,Jakarta Pusat,2BR,74.9,10850000,"Furnished, Gym, Keamanan 24 Jam, Laundry, Minimarket, Parkir",0.95,4.2
+394,Residence Cikini C,Bekasi,3BR,100.9,10600000,"Kolam Renang, Laundry, Minimarket, Taman Bermain",4.33,3.8
+395,Residence Cikini C,Depok,Studio,29.7,3640000,"Gym, Minimarket, Taman Bermain",8.49,3.9
+396,Tower Permata A,Jakarta Barat,Studio,20.9,3760000,"AC, Akses Kartu, Kolam Renang",8.0,3.9
+397,Tower Kemang I,Bekasi,2BR,54.7,8840000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang, Minimarket",9.6,4.2
+398,Kost Eksklusif Pluit C,Jakarta Selatan,2BR,68.3,9430000,"AC, Keamanan 24 Jam, Taman Bermain",1.08,4.7
+399,Kost Eksklusif Kemang C,Jakarta Selatan,Studio,25.2,5820000,"AC, Gym, Keamanan 24 Jam, Minimarket, Parkir",7.94,5.0
+400,Apartemen Kemang B,Jakarta Pusat,1BR,42.2,6900000,"Furnished, Keamanan 24 Jam, Kolam Renang, Minimarket, Parkir, Taman Bermain",4.66,3.9
+401,Residence Cikini I,Bekasi,2BR,56.7,8790000,"Keamanan 24 Jam, Laundry, Minimarket, Taman Bermain",11.08,3.0
+402,Suites Royal Mediterania C,Bekasi,3BR,109.1,14690000,"Akses Kartu, Furnished, Gym",8.23,3.7
+403,Residence Margonda II,Jakarta Utara,Studio,21.1,3670000,"Furnished, Minimarket, Parkir, Taman Bermain",5.59,3.0
+404,Apartemen Royal Mediterania A,Jakarta Selatan,Studio,18.1,3290000,"AC, Kolam Renang, Parkir, Taman Bermain",5.41,3.1
+405,Residence Pluit C,Jakarta Timur,Studio,26.5,2740000,"Furnished, Gym, Keamanan 24 Jam, Laundry",10.29,3.9
+406,Suites Bintaro C,Jakarta Barat,3BR,125.0,9210000,"AC, Akses Kartu, Gym, Keamanan 24 Jam, Kolam Renang",5.18,5.0
+407,Suites Casablanca B,Jakarta Utara,2BR,46.2,5280000,"Furnished, Keamanan 24 Jam, Laundry, Taman Bermain",11.76,4.1
+408,Tower Pondok Indah A,Tangerang,1BR,38.4,3770000,"AC, Akses Kartu, Gym, Kolam Renang, Taman Bermain",5.35,4.8
+409,Apartemen Permata B,Jakarta Pusat,Studio,29.2,4800000,"Furnished, Kolam Renang, Laundry, Minimarket, Parkir, Taman Bermain",8.43,3.0
+410,Tower Senayan I,Bekasi,Studio,24.8,4370000,"AC, Gym, Keamanan 24 Jam, Kolam Renang, Laundry",4.37,4.5
+411,Tower Tebet A,Jakarta Utara,1BR,31.0,3600000,"AC, Furnished, Gym, Laundry",4.67,4.8
+412,Kost Eksklusif Cervino I,Bekasi,1BR,30.4,3980000,"Akses Kartu, Gym, Laundry, Minimarket",8.66,4.1
+413,Kost Eksklusif Pondok Indah II,Bekasi,Studio,18.4,2610000,"Gym, Laundry, Parkir",9.47,3.3
+414,Apartemen Kuningan A,Jakarta Timur,Studio,18.4,2780000,"Furnished, Gym, Kolam Renang, Laundry, Parkir, Taman Bermain",7.88,4.8
+415,Residence Grand Galaxy C,Jakarta Barat,3BR,104.7,16850000,"Gym, Minimarket, Parkir",0.86,4.6
+416,Apartemen Pluit B,Tangerang,2BR,44.2,7740000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Minimarket, Parkir",6.6,4.5
+417,Residence Senayan II,Jakarta Pusat,2BR,59.4,10850000,"Akses Kartu, Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket",0.58,4.8
+418,Kost Eksklusif Kuningan I,Tangerang,3BR,110.0,8650000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Parkir",7.71,4.2
+419,Kost Eksklusif Cikini B,Jakarta Barat,2BR,52.2,5020000,"Akses Kartu, Furnished, Gym",2.9,3.9
+420,Tower Cervino B,Jakarta Timur,2BR,41.9,5450000,"Akses Kartu, Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket",1.88,3.9
+421,Apartemen Senayan B,Depok,3BR,67.8,12920000,"AC, Keamanan 24 Jam, Kolam Renang, Minimarket",11.11,4.4
+422,Residence Grand Galaxy B,Depok,3BR,77.9,12410000,"Furnished, Gym, Parkir",3.98,3.8
+423,Tower Thamrin I,Jakarta Timur,Studio,23.7,3470000,"Keamanan 24 Jam, Minimarket, Parkir, Taman Bermain",10.7,4.4
+424,Suites Pondok Indah I,Depok,2BR,47.1,5510000,"AC, Gym, Keamanan 24 Jam",8.34,3.3
+425,Suites Cikini I,Depok,1BR,43.1,5010000,"Akses Kartu, Kolam Renang, Parkir, Taman Bermain",9.5,4.7
+426,Residence Green Bay B,Jakarta Timur,3BR,119.4,9230000,"AC, Furnished, Laundry, Parkir",8.79,4.8
+427,Suites Casablanca I,Jakarta Selatan,3BR,128.7,9470000,"Akses Kartu, Laundry, Taman Bermain",9.25,4.0
+428,Tower Kuningan I,Jakarta Barat,Studio,26.3,3310000,"AC, Akses Kartu, Gym, Kolam Renang, Parkir",2.69,4.7
+429,Tower Cikini A,Jakarta Selatan,3BR,95.1,10870000,"Furnished, Gym, Kolam Renang, Minimarket, Parkir",2.3,3.6
+430,Apartemen Bintaro C,Jakarta Utara,1BR,41.4,3700000,"Akses Kartu, Furnished, Kolam Renang",10.58,3.9
+431,Apartemen Tebet II,Jakarta Selatan,2BR,52.8,10180000,"AC, Furnished, Keamanan 24 Jam, Parkir",6.77,4.7
+432,Suites Cikini II,Jakarta Timur,1BR,33.4,5740000,"AC, Gym, Keamanan 24 Jam, Kolam Renang, Laundry, Parkir",6.09,4.7
+433,Apartemen Bintaro B,Bekasi,2BR,55.8,6470000,"Gym, Minimarket, Parkir",8.11,3.6
+434,Suites Permata B,Jakarta Barat,Studio,20.0,2720000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Parkir",1.86,3.9
+435,Suites Green Bay C,Tangerang,3BR,113.0,7170000,"Akses Kartu, Furnished, Parkir",2.35,4.3
+436,Tower Kelapa Gading I,Depok,3BR,103.6,12570000,"AC, Gym, Keamanan 24 Jam, Laundry, Minimarket, Taman Bermain",10.12,3.7
+437,Residence Kuningan B,Jakarta Utara,Studio,19.8,3070000,"AC, Akses Kartu, Gym, Keamanan 24 Jam",11.48,3.2
+438,Tower Pondok Indah II,Depok,1BR,35.5,4420000,"Furnished, Keamanan 24 Jam, Taman Bermain",2.54,5.0
+439,Kost Eksklusif Cikini C,Jakarta Utara,Studio,29.0,3310000,"Furnished, Keamanan 24 Jam, Kolam Renang, Minimarket",6.04,4.3
+440,Apartemen Tebet A,Jakarta Utara,3BR,123.2,14760000,"Akses Kartu, Furnished, Minimarket, Taman Bermain",9.07,3.3
+441,Residence Green Bay II,Jakarta Barat,2BR,40.9,7470000,"AC, Akses Kartu, Furnished, Gym, Kolam Renang",2.72,3.4
+442,Suites Margonda II,Jakarta Utara,1BR,28.4,4850000,"Akses Kartu, Laundry, Parkir",5.4,4.2
+443,Tower Pondok Indah II,Jakarta Selatan,2BR,53.9,10110000,"AC, Akses Kartu, Furnished",4.69,3.2
+444,Suites Cikini C,Bekasi,3BR,117.2,9310000,"Akses Kartu, Gym, Keamanan 24 Jam, Laundry, Minimarket, Taman Bermain",9.69,3.1
+445,Residence Bintaro C,Tangerang,Studio,18.1,3780000,"Akses Kartu, Gym, Keamanan 24 Jam, Minimarket",3.35,4.1
+446,Tower Tebet A,Jakarta Selatan,2BR,69.2,8150000,"AC, Keamanan 24 Jam, Kolam Renang",5.62,4.3
+447,Apartemen Royal Mediterania C,Jakarta Utara,3BR,76.7,14250000,"AC, Gym, Minimarket",7.77,4.2
+448,Tower Kuningan II,Tangerang,2BR,62.0,6900000,"Akses Kartu, Furnished, Kolam Renang",8.36,3.1
+449,Tower Cikini A,Depok,3BR,122.1,8080000,"Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Taman Bermain",2.04,4.0
+450,Tower Thamrin A,Jakarta Pusat,Studio,25.2,3580000,"AC, Furnished, Gym, Laundry, Taman Bermain",3.86,3.3
+451,Residence Menteng II,Jakarta Utara,2BR,67.3,6650000,"AC, Gym, Keamanan 24 Jam, Parkir",11.06,4.2
+452,Tower Thamrin I,Jakarta Barat,3BR,94.9,7610000,"AC, Furnished, Minimarket",9.84,4.8
+453,Residence Menteng B,Depok,1BR,40.1,3570000,"Akses Kartu, Keamanan 24 Jam, Parkir, Taman Bermain",9.79,5.0
+454,Kost Eksklusif Green Bay A,Tangerang,Studio,18.9,4050000,"Gym, Kolam Renang, Parkir",9.11,3.9
+455,Residence Alam Sutera A,Jakarta Utara,Studio,18.8,3840000,"Akses Kartu, Parkir, Taman Bermain",9.08,3.2
+456,Kost Eksklusif Sudirman II,Jakarta Utara,2BR,52.3,8420000,"Akses Kartu, Gym, Laundry, Taman Bermain",9.39,3.4
+457,Kost Eksklusif Kuningan I,Jakarta Timur,2BR,46.0,9800000,"Akses Kartu, Furnished, Minimarket, Taman Bermain",0.15,4.3
+458,Suites Casablanca II,Jakarta Barat,1BR,42.2,5950000,"Furnished, Gym, Kolam Renang, Laundry",5.15,3.3
+459,Kost Eksklusif Cervino I,Depok,2BR,59.5,5160000,"AC, Laundry, Minimarket",4.0,3.5
+460,Suites Pondok Indah II,Tangerang,2BR,74.5,6710000,"Furnished, Keamanan 24 Jam, Kolam Renang, Minimarket, Parkir, Taman Bermain",10.3,4.3
+461,Residence Margonda B,Jakarta Barat,Studio,19.7,3300000,"Furnished, Gym, Keamanan 24 Jam",7.13,4.2
+462,Suites Tebet II,Tangerang,Studio,20.8,3350000,"AC, Akses Kartu, Furnished, Laundry, Minimarket",6.04,3.6
+463,Apartemen Tebet A,Bekasi,Studio,19.5,3480000,"Gym, Kolam Renang, Laundry, Taman Bermain",2.85,4.9
+464,Residence Cervino I,Tangerang,2BR,45.3,7490000,"Akses Kartu, Minimarket, Taman Bermain",1.25,4.0
+465,Suites Kemang A,Jakarta Utara,2BR,68.3,8780000,"Furnished, Gym, Keamanan 24 Jam, Laundry, Minimarket, Parkir",0.31,3.4
+466,Kost Eksklusif Kemang I,Jakarta Utara,1BR,36.4,3840000,"AC, Akses Kartu, Gym, Minimarket, Parkir, Taman Bermain",8.62,3.5
+467,Tower Bintaro A,Tangerang,2BR,66.8,7420000,"Furnished, Kolam Renang, Laundry, Taman Bermain",0.83,3.9
+468,Apartemen Margonda B,Depok,3BR,87.8,12290000,"Akses Kartu, Gym, Keamanan 24 Jam, Laundry, Taman Bermain",3.05,3.0
+469,Suites Green Bay I,Depok,Studio,23.5,4230000,"AC, Akses Kartu, Keamanan 24 Jam, Kolam Renang, Minimarket, Taman Bermain",6.86,3.6
+470,Suites Senayan II,Jakarta Barat,3BR,71.5,12400000,"AC, Furnished, Gym, Keamanan 24 Jam, Parkir",4.1,3.4
+471,Tower Senayan II,Jakarta Utara,Studio,21.6,3650000,"Furnished, Gym, Taman Bermain",9.67,4.6
+472,Tower Menteng I,Bekasi,3BR,78.6,13370000,"AC, Akses Kartu, Furnished, Laundry, Taman Bermain",7.85,3.8
+473,Suites Pluit II,Bekasi,1BR,43.0,5070000,"Furnished, Minimarket, Parkir, Taman Bermain",6.24,4.6
+474,Apartemen Menteng I,Tangerang,Studio,24.3,3230000,"AC, Akses Kartu, Keamanan 24 Jam, Laundry",1.86,3.5
+475,Residence Cervino I,Jakarta Utara,1BR,32.4,5000000,"Keamanan 24 Jam, Kolam Renang, Parkir",4.93,4.0
+476,Kost Eksklusif Kuningan A,Tangerang,3BR,107.0,7300000,"AC, Akses Kartu, Furnished, Kolam Renang",2.0,4.9
+477,Apartemen Bintaro B,Bekasi,Studio,18.7,4290000,"Akses Kartu, Furnished, Gym, Laundry, Minimarket",3.84,3.5
+478,Residence Casablanca B,Jakarta Barat,2BR,57.4,5360000,"Furnished, Gym, Laundry, Minimarket, Parkir",7.24,3.4
+479,Suites Kelapa Gading C,Jakarta Utara,3BR,91.5,16730000,"Akses Kartu, Furnished, Laundry",0.77,4.8
+480,Kost Eksklusif Bintaro C,Jakarta Pusat,2BR,56.6,8160000,"AC, Kolam Renang, Parkir",7.78,4.3
+481,Apartemen Kelapa Gading C,Depok,Studio,24.4,2970000,"AC, Akses Kartu, Laundry",5.36,3.4
+482,Suites Grand Galaxy C,Jakarta Pusat,3BR,106.0,19000000,"AC, Gym, Minimarket",4.93,4.4
+483,Residence Pondok Indah B,Jakarta Barat,1BR,39.9,4770000,"Akses Kartu, Furnished, Kolam Renang, Laundry, Minimarket",4.29,3.0
+484,Suites Thamrin C,Jakarta Timur,2BR,51.0,5330000,"Furnished, Laundry, Parkir, Taman Bermain",1.98,3.3
+485,Residence Senayan I,Depok,2BR,47.0,6660000,"AC, Furnished, Kolam Renang, Minimarket, Parkir, Taman Bermain",2.26,3.4
+486,Suites Pondok Indah I,Jakarta Pusat,Studio,22.8,4200000,"AC, Furnished, Gym, Keamanan 24 Jam, Kolam Renang",1.16,3.2
+487,Residence Cervino B,Jakarta Timur,1BR,44.1,5530000,"AC, Gym, Keamanan 24 Jam, Laundry, Minimarket, Taman Bermain",3.27,3.8
+488,Residence Margonda I,Tangerang,1BR,28.5,5940000,"Furnished, Kolam Renang, Laundry, Minimarket, Parkir, Taman Bermain",2.9,4.4
+489,Suites Alam Sutera II,Tangerang,3BR,112.8,9050000,"Furnished, Kolam Renang, Parkir",1.23,4.9
+490,Tower Kuningan II,Jakarta Selatan,Studio,21.0,4710000,"AC, Akses Kartu, Gym, Keamanan 24 Jam, Kolam Renang",4.8,4.0
+491,Residence Tebet C,Depok,3BR,73.6,9540000,"AC, Furnished, Gym, Kolam Renang",6.41,4.5
+492,Suites Thamrin II,Tangerang,2BR,71.6,6050000,"Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Laundry",9.97,4.7
+493,Apartemen Pondok Indah C,Bekasi,Studio,20.3,2610000,"AC, Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket, Parkir",2.28,5.0
+494,Tower Kuningan B,Bekasi,3BR,97.0,13770000,"Furnished, Gym, Parkir",10.42,4.5
+495,Suites Casablanca C,Jakarta Utara,1BR,37.9,5930000,"Gym, Laundry, Parkir, Taman Bermain",6.36,3.1
+496,Suites Pondok Indah C,Jakarta Barat,3BR,89.3,14430000,"Furnished, Gym, Keamanan 24 Jam, Kolam Renang, Parkir",1.36,4.2
+497,Apartemen Senayan II,Jakarta Selatan,2BR,73.9,10600000,"AC, Keamanan 24 Jam, Kolam Renang, Parkir",3.97,4.9
+498,Tower Thamrin A,Tangerang,Studio,22.8,2860000,"Furnished, Gym, Kolam Renang, Minimarket, Parkir, Taman Bermain",11.58,3.6
+499,Suites Pondok Indah I,Tangerang,2BR,71.6,7410000,"Akses Kartu, Furnished, Parkir",4.37,4.0
+500,Residence Thamrin I,Tangerang,Studio,27.1,4120000,"AC, Gym, Keamanan 24 Jam, Kolam Renang, Laundry, Parkir",7.41,4.1
+501,Kost Eksklusif Grand Galaxy C,Jakarta Barat,2BR,56.4,5320000,"AC, Gym, Keamanan 24 Jam, Laundry, Taman Bermain",9.64,4.1
+502,Kost Eksklusif Sudirman A,Jakarta Barat,Studio,24.2,3520000,"AC, Akses Kartu, Furnished, Keamanan 24 Jam, Kolam Renang, Taman Bermain",5.01,4.5
+503,Tower Kuningan B,Bekasi,1BR,41.4,6680000,"AC, Akses Kartu, Furnished, Keamanan 24 Jam, Minimarket",0.64,3.4
+504,Suites Royal Mediterania I,Jakarta Utara,Studio,23.2,2540000,"Akses Kartu, Keamanan 24 Jam, Minimarket",4.8,3.6
+505,Apartemen Menteng I,Depok,3BR,117.3,7700000,"Gym, Kolam Renang, Laundry, Parkir",1.71,4.3
+506,Suites Grand Galaxy A,Jakarta Timur,3BR,119.7,13870000,"AC, Keamanan 24 Jam, Minimarket",6.51,3.2
+507,Apartemen Casablanca I,Jakarta Pusat,3BR,127.7,14780000,"AC, Keamanan 24 Jam, Kolam Renang, Laundry",7.06,5.0
+508,Kost Eksklusif Senayan C,Bekasi,2BR,41.3,6600000,"AC, Akses Kartu, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",6.21,4.8
+509,Suites Alam Sutera I,Tangerang,3BR,72.6,11980000,"Furnished, Gym, Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket",7.79,3.5
+510,Suites Kuningan II,Jakarta Timur,2BR,72.3,8410000,"AC, Furnished, Keamanan 24 Jam, Laundry, Parkir, Taman Bermain",8.61,3.4
+511,Residence Menteng II,Jakarta Barat,3BR,73.4,8600000,"AC, Laundry, Minimarket",7.31,3.1
+512,Apartemen Royal Mediterania B,Jakarta Selatan,2BR,70.8,7920000,"Furnished, Gym, Laundry",9.95,3.2
+513,Kost Eksklusif Royal Mediterania A,Jakarta Timur,3BR,81.8,9720000,"AC, Akses Kartu, Keamanan 24 Jam",4.33,4.4
+514,Residence Casablanca B,Bekasi,3BR,127.6,13050000,"Akses Kartu, Gym, Kolam Renang",11.7,4.8
+515,Residence Pondok Indah I,Jakarta Pusat,2BR,64.8,10460000,"Furnished, Keamanan 24 Jam, Kolam Renang, Taman Bermain",10.46,4.5
+516,Residence Thamrin II,Jakarta Selatan,1BR,42.2,5890000,"Akses Kartu, Furnished, Laundry, Minimarket, Taman Bermain",2.14,3.8
+517,Kost Eksklusif Senayan A,Jakarta Timur,1BR,41.6,4530000,"Akses Kartu, Furnished, Gym, Kolam Renang, Minimarket, Parkir",4.97,3.7
+518,Suites Permata C,Tangerang,1BR,35.4,5570000,"AC, Kolam Renang, Parkir, Taman Bermain",0.54,4.4
+519,Kost Eksklusif Royal Mediterania I,Depok,2BR,40.3,6120000,"AC, Laundry, Minimarket, Parkir",6.38,4.4
+520,Kost Eksklusif Cervino II,Tangerang,1BR,43.0,3710000,"AC, Akses Kartu, Gym, Keamanan 24 Jam, Kolam Renang, Minimarket",6.5,3.7
+521,Tower Pluit II,Jakarta Pusat,Studio,18.3,5400000,"Akses Kartu, Furnished, Gym, Kolam Renang, Laundry",2.97,3.7
+522,Tower Cervino II,Jakarta Selatan,Studio,23.4,4380000,"Akses Kartu, Keamanan 24 Jam, Parkir, Taman Bermain",4.13,4.3
+523,Suites Senayan A,Tangerang,1BR,29.8,4790000,"Furnished, Gym, Keamanan 24 Jam, Minimarket, Parkir",2.39,3.1
+524,Suites Kuningan B,Jakarta Pusat,3BR,79.0,10180000,"AC, Akses Kartu, Furnished, Laundry, Minimarket, Parkir",4.89,4.0
+525,Apartemen Kuningan II,Bekasi,3BR,73.4,12640000,"Akses Kartu, Minimarket, Parkir",10.37,3.7
+526,Tower Cervino I,Jakarta Barat,3BR,72.2,9960000,"AC, Furnished, Gym, Keamanan 24 Jam",3.55,3.1
+527,Kost Eksklusif Alam Sutera A,Jakarta Pusat,1BR,41.3,6320000,"Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket, Parkir",3.73,4.7
+528,Suites Pondok Indah B,Tangerang,3BR,102.2,11530000,"AC, Akses Kartu, Furnished, Keamanan 24 Jam, Minimarket, Parkir",10.81,4.7
+529,Suites Pluit A,Depok,Studio,27.6,3830000,"Akses Kartu, Furnished, Kolam Renang, Laundry",4.97,4.7
+530,Suites Cikini A,Jakarta Selatan,2BR,59.6,7210000,"Akses Kartu, Parkir, Taman Bermain",2.39,3.2
+531,Suites Sudirman C,Jakarta Pusat,Studio,21.3,3980000,"AC, Akses Kartu, Furnished, Gym, Kolam Renang, Parkir",10.08,3.9
+532,Tower Thamrin B,Tangerang,Studio,28.3,3130000,"Akses Kartu, Gym, Keamanan 24 Jam",3.16,3.5
+533,Apartemen Margonda B,Jakarta Barat,1BR,33.2,4520000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",2.11,3.8
+534,Kost Eksklusif Bintaro A,Depok,2BR,53.1,8310000,"AC, Minimarket, Parkir, Taman Bermain",1.54,3.5
+535,Residence Permata B,Depok,3BR,101.0,9130000,"AC, Akses Kartu, Gym",0.44,3.6
+536,Residence Permata I,Tangerang,3BR,70.5,12090000,"Akses Kartu, Furnished, Keamanan 24 Jam, Laundry",2.52,4.9
+537,Kost Eksklusif Pluit I,Bekasi,Studio,18.0,3430000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",9.97,5.0
+538,Kost Eksklusif Pluit I,Jakarta Timur,2BR,41.6,7960000,"Akses Kartu, Gym, Laundry, Minimarket, Taman Bermain",6.8,3.4
+539,Kost Eksklusif Margonda A,Depok,2BR,62.2,8920000,"Akses Kartu, Furnished, Gym, Parkir, Taman Bermain",8.52,4.8
+540,Kost Eksklusif Sudirman I,Jakarta Pusat,Studio,25.3,3020000,"Akses Kartu, Furnished, Gym, Kolam Renang, Laundry, Taman Bermain",2.17,4.3
+541,Residence Pondok Indah A,Depok,3BR,118.8,9860000,"Furnished, Gym, Minimarket",2.21,3.4
+542,Tower Tebet II,Jakarta Selatan,2BR,63.8,9700000,"Keamanan 24 Jam, Kolam Renang, Minimarket, Parkir, Taman Bermain",9.81,3.4
+543,Kost Eksklusif Thamrin A,Jakarta Timur,3BR,72.2,9220000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Parkir",6.05,3.3
+544,Apartemen Margonda I,Jakarta Timur,2BR,46.7,7710000,"Akses Kartu, Furnished, Kolam Renang, Minimarket, Parkir",11.9,4.7
+545,Suites Permata I,Tangerang,2BR,44.3,7070000,"AC, Kolam Renang, Parkir",6.0,3.6
+546,Residence Margonda C,Tangerang,1BR,33.7,5700000,"Akses Kartu, Gym, Laundry, Parkir",9.71,3.1
+547,Tower Kemang C,Jakarta Barat,Studio,23.8,4120000,"AC, Akses Kartu, Gym, Minimarket, Parkir",7.15,4.0
+548,Tower Senayan B,Jakarta Timur,Studio,27.3,3740000,"Akses Kartu, Gym, Kolam Renang, Laundry, Parkir, Taman Bermain",9.19,3.1
+549,Apartemen Royal Mediterania I,Bekasi,Studio,21.6,4570000,"AC, Akses Kartu, Laundry",0.88,3.5
+550,Apartemen Casablanca A,Jakarta Selatan,3BR,90.0,18390000,"AC, Furnished, Gym, Kolam Renang, Minimarket",7.47,4.2
+551,Residence Kemang A,Jakarta Barat,1BR,43.4,3810000,"Akses Kartu, Gym, Laundry, Minimarket, Taman Bermain",6.16,3.3
+552,Tower Sudirman II,Tangerang,2BR,50.9,8540000,"AC, Furnished, Keamanan 24 Jam, Minimarket",9.33,4.2
+553,Suites Pondok Indah II,Jakarta Pusat,Studio,20.8,6430000,"Akses Kartu, Furnished, Gym, Parkir",0.75,4.4
+554,Residence Kelapa Gading I,Depok,2BR,54.7,5650000,"Kolam Renang, Minimarket, Parkir",5.51,4.2
+555,Apartemen Senayan C,Jakarta Timur,3BR,112.7,14620000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket, Parkir",4.05,3.1
+556,Residence Kelapa Gading C,Jakarta Barat,1BR,32.9,3990000,"Gym, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",7.07,4.4
+557,Apartemen Margonda B,Depok,1BR,31.0,3550000,"Keamanan 24 Jam, Kolam Renang, Laundry",10.13,3.6
+558,Kost Eksklusif Bintaro C,Jakarta Timur,2BR,68.3,7640000,"Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Laundry, Taman Bermain",11.3,3.6
+559,Tower Thamrin II,Tangerang,1BR,43.7,5410000,"Akses Kartu, Furnished, Keamanan 24 Jam, Kolam Renang, Parkir",7.09,4.9
+560,Kost Eksklusif Alam Sutera I,Bekasi,1BR,40.4,5460000,"Akses Kartu, Keamanan 24 Jam, Laundry",9.51,4.0
+561,Suites Kelapa Gading I,Jakarta Pusat,2BR,64.9,9210000,"AC, Akses Kartu, Furnished, Gym, Kolam Renang, Laundry",11.47,3.4
+562,Suites Cikini C,Tangerang,3BR,102.1,14480000,"AC, Gym, Keamanan 24 Jam",4.55,3.5
+563,Residence Pondok Indah B,Jakarta Selatan,3BR,98.3,12500000,"AC, Furnished, Kolam Renang, Minimarket, Parkir",5.25,3.5
+564,Apartemen Senayan C,Jakarta Barat,2BR,71.6,6180000,"AC, Gym, Parkir",6.07,3.1
+565,Tower Alam Sutera I,Jakarta Timur,2BR,46.9,6320000,"AC, Akses Kartu, Keamanan 24 Jam, Kolam Renang, Parkir",3.7,4.9
+566,Kost Eksklusif Green Bay II,Jakarta Selatan,3BR,107.5,20740000,"Gym, Minimarket, Parkir, Taman Bermain",10.4,4.5
+567,Tower Thamrin II,Bekasi,2BR,67.7,6250000,"AC, Akses Kartu, Kolam Renang, Laundry, Minimarket, Parkir",2.34,4.7
+568,Kost Eksklusif Cervino C,Jakarta Utara,Studio,24.0,3820000,"Akses Kartu, Laundry, Minimarket, Taman Bermain",4.32,4.2
+569,Residence Tebet A,Jakarta Selatan,1BR,30.6,7450000,"AC, Akses Kartu, Kolam Renang, Laundry, Parkir, Taman Bermain",7.6,3.7
+570,Residence Menteng A,Bekasi,2BR,43.3,5420000,"Kolam Renang, Minimarket, Taman Bermain",6.68,4.8
+571,Suites Kuningan A,Tangerang,2BR,47.2,6160000,"Furnished, Gym, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",6.34,3.3
+572,Suites Kuningan II,Tangerang,3BR,113.3,10110000,"AC, Akses Kartu, Keamanan 24 Jam, Parkir",10.85,4.2
+573,Suites Royal Mediterania B,Jakarta Utara,1BR,36.5,5210000,"Gym, Keamanan 24 Jam, Minimarket",3.38,4.1
+574,Residence Kuningan II,Bekasi,3BR,95.1,7310000,"AC, Akses Kartu, Furnished, Gym, Laundry, Parkir",1.18,4.5
+575,Tower Senayan B,Bekasi,3BR,124.2,8470000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang, Minimarket, Parkir",6.87,4.8
+576,Kost Eksklusif Kemang I,Tangerang,Studio,29.9,2650000,"Akses Kartu, Gym, Keamanan 24 Jam, Laundry, Minimarket",1.35,3.1
+577,Residence Margonda I,Bekasi,3BR,87.3,10190000,"AC, Gym, Kolam Renang",2.41,4.0
+578,Apartemen Royal Mediterania A,Jakarta Barat,Studio,24.6,2980000,"AC, Gym, Keamanan 24 Jam, Minimarket",11.41,3.4
+579,Residence Pondok Indah A,Jakarta Barat,3BR,75.9,14560000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",0.23,4.7
+580,Tower Kelapa Gading B,Jakarta Barat,3BR,109.9,10550000,"Akses Kartu, Laundry, Parkir",7.22,3.2
+581,Residence Kemang I,Tangerang,Studio,29.9,3170000,"Gym, Keamanan 24 Jam, Parkir",2.39,4.0
+582,Tower Kuningan A,Depok,2BR,59.7,5760000,"Akses Kartu, Gym, Keamanan 24 Jam, Kolam Renang, Laundry, Parkir",2.56,3.8
+583,Kost Eksklusif Tebet A,Depok,Studio,22.7,4210000,"Gym, Keamanan 24 Jam, Kolam Renang, Minimarket, Parkir",0.89,4.4
+584,Suites Senayan C,Jakarta Pusat,2BR,73.6,10330000,"Furnished, Keamanan 24 Jam, Laundry, Taman Bermain",8.39,3.0
+585,Tower Kelapa Gading I,Bekasi,3BR,98.2,12930000,"Gym, Kolam Renang, Parkir",6.09,4.5
+586,Tower Thamrin C,Jakarta Barat,Studio,19.7,3500000,"AC, Furnished, Kolam Renang, Minimarket, Parkir, Taman Bermain",2.5,3.6
+587,Residence Kelapa Gading II,Jakarta Selatan,3BR,107.1,11210000,"AC, Akses Kartu, Furnished, Kolam Renang, Parkir",10.18,4.7
+588,Residence Thamrin A,Depok,1BR,35.5,3520000,"Keamanan 24 Jam, Kolam Renang, Parkir",10.45,3.3
+589,Kost Eksklusif Kelapa Gading C,Jakarta Timur,1BR,36.6,4570000,"Gym, Laundry, Parkir, Taman Bermain",5.66,3.6
+590,Suites Cikini II,Bekasi,1BR,32.6,5450000,"Akses Kartu, Keamanan 24 Jam, Laundry, Parkir, Taman Bermain",1.05,4.5
+591,Residence Pluit I,Jakarta Pusat,3BR,66.3,13780000,"AC, Akses Kartu, Furnished, Keamanan 24 Jam, Taman Bermain",9.13,3.9
+592,Tower Tebet I,Bekasi,2BR,53.1,8640000,"AC, Keamanan 24 Jam, Kolam Renang, Laundry, Parkir, Taman Bermain",0.96,4.9
+593,Suites Green Bay B,Tangerang,2BR,53.4,6230000,"Gym, Kolam Renang, Laundry",11.85,3.4
+594,Residence Tebet A,Tangerang,2BR,67.0,8010000,"Furnished, Gym, Kolam Renang, Laundry, Parkir, Taman Bermain",4.25,4.8
+595,Apartemen Casablanca A,Depok,Studio,26.4,3790000,"AC, Akses Kartu, Gym, Keamanan 24 Jam, Laundry, Parkir",3.21,4.3
+596,Tower Cikini II,Tangerang,3BR,110.9,14790000,"Akses Kartu, Keamanan 24 Jam, Laundry, Taman Bermain",1.06,4.3
+597,Tower Menteng I,Tangerang,2BR,65.7,8010000,"Furnished, Gym, Keamanan 24 Jam",11.1,4.4
+598,Residence Menteng I,Jakarta Selatan,1BR,41.9,4250000,"AC, Akses Kartu, Gym, Keamanan 24 Jam, Laundry, Minimarket",8.39,3.4
+599,Kost Eksklusif Casablanca B,Jakarta Barat,3BR,101.9,8700000,"AC, Laundry, Parkir, Taman Bermain",2.49,3.2
+600,Apartemen Casablanca B,Jakarta Barat,3BR,73.1,8820000,"AC, Akses Kartu, Gym, Keamanan 24 Jam, Kolam Renang, Minimarket",0.45,4.0
+601,Tower Kelapa Gading C,Jakarta Selatan,3BR,104.2,20140000,"Akses Kartu, Furnished, Keamanan 24 Jam, Laundry, Minimarket, Taman Bermain",11.19,4.3
+602,Apartemen Royal Mediterania A,Tangerang,Studio,29.7,4250000,"Keamanan 24 Jam, Laundry, Minimarket",9.69,4.7
+603,Apartemen Alam Sutera A,Jakarta Utara,1BR,34.3,5050000,"Akses Kartu, Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Parkir",7.94,4.9
+604,Apartemen Bintaro C,Depok,3BR,80.2,10880000,"Furnished, Laundry, Minimarket",8.9,4.2
+605,Residence Kelapa Gading B,Jakarta Pusat,Studio,19.5,5160000,"AC, Furnished, Gym, Keamanan 24 Jam, Minimarket, Parkir",8.11,3.3
+606,Suites Casablanca B,Jakarta Barat,Studio,23.2,3930000,"AC, Furnished, Keamanan 24 Jam, Laundry, Parkir",2.01,4.8
+607,Kost Eksklusif Grand Galaxy B,Bekasi,Studio,27.5,3170000,"Akses Kartu, Furnished, Laundry",2.76,3.4
+608,Tower Bintaro II,Jakarta Barat,2BR,43.1,5360000,"Furnished, Gym, Keamanan 24 Jam, Laundry",8.91,4.5
+609,Kost Eksklusif Kelapa Gading A,Jakarta Utara,Studio,25.1,2880000,"AC, Akses Kartu, Furnished, Keamanan 24 Jam, Laundry, Taman Bermain",4.72,3.8
+610,Kost Eksklusif Margonda C,Bekasi,2BR,45.1,8770000,"AC, Furnished, Gym, Keamanan 24 Jam, Kolam Renang, Minimarket",10.06,4.0
+611,Tower Thamrin B,Jakarta Barat,2BR,74.9,7830000,"AC, Kolam Renang, Laundry, Minimarket",5.79,4.7
+612,Suites Tebet C,Jakarta Timur,Studio,29.1,4050000,"AC, Akses Kartu, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",10.3,4.5
+613,Tower Green Bay A,Tangerang,Studio,24.3,3070000,"Akses Kartu, Gym, Laundry, Minimarket",8.39,4.7
+614,Apartemen Alam Sutera II,Jakarta Utara,3BR,107.6,11620000,"AC, Furnished, Gym, Keamanan 24 Jam, Laundry, Parkir",5.36,3.2
+615,Apartemen Casablanca II,Jakarta Pusat,3BR,126.8,14250000,"Furnished, Keamanan 24 Jam, Minimarket",11.12,4.3
+616,Suites Bintaro C,Tangerang,1BR,38.7,5300000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket",0.5,4.3
+617,Apartemen Green Bay B,Bekasi,2BR,40.4,5470000,"AC, Furnished, Kolam Renang, Minimarket",1.55,3.8
+618,Kost Eksklusif Cikini I,Tangerang,2BR,60.0,6700000,"AC, Kolam Renang, Laundry, Taman Bermain",0.86,3.1
+619,Tower Casablanca A,Jakarta Barat,1BR,44.4,5740000,"Akses Kartu, Kolam Renang, Laundry, Minimarket",2.25,3.3
+620,Tower Permata B,Jakarta Timur,1BR,29.5,4140000,"AC, Akses Kartu, Gym",9.06,3.8
+621,Kost Eksklusif Cikini B,Jakarta Selatan,1BR,33.1,7650000,"AC, Furnished, Keamanan 24 Jam, Laundry, Minimarket, Taman Bermain",9.42,4.4
+622,Tower Pluit B,Jakarta Selatan,1BR,28.6,5280000,"AC, Akses Kartu, Parkir, Taman Bermain",2.66,4.5
+623,Suites Thamrin II,Tangerang,Studio,24.6,3020000,"Gym, Keamanan 24 Jam, Laundry, Minimarket",7.83,3.4
+624,Suites Bintaro A,Jakarta Utara,1BR,40.1,4910000,"Furnished, Keamanan 24 Jam, Laundry, Taman Bermain",7.81,4.9
+625,Residence Kelapa Gading C,Jakarta Timur,Studio,21.2,3560000,"Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Laundry, Taman Bermain",8.24,3.0
+626,Kost Eksklusif Alam Sutera II,Tangerang,1BR,34.4,3760000,"AC, Akses Kartu, Kolam Renang, Minimarket",11.12,4.7
+627,Tower Sudirman II,Jakarta Utara,Studio,28.8,2840000,"AC, Furnished, Gym, Keamanan 24 Jam, Laundry, Parkir",11.36,4.4
+628,Tower Pondok Indah II,Jakarta Pusat,1BR,34.4,6460000,"Gym, Laundry, Minimarket, Parkir, Taman Bermain",8.73,3.6
+629,Apartemen Kuningan II,Tangerang,1BR,33.2,5640000,"Akses Kartu, Furnished, Gym, Kolam Renang, Minimarket, Taman Bermain",11.37,3.1
+630,Apartemen Royal Mediterania B,Jakarta Utara,3BR,117.5,7090000,"Gym, Minimarket, Parkir, Taman Bermain",11.39,4.8
+631,Kost Eksklusif Kelapa Gading B,Jakarta Selatan,3BR,110.7,16230000,"Keamanan 24 Jam, Minimarket, Taman Bermain",8.89,3.2
+632,Tower Cervino I,Jakarta Pusat,2BR,73.3,8540000,"Furnished, Gym, Parkir",4.54,3.6
+633,Apartemen Alam Sutera A,Jakarta Timur,Studio,26.9,3640000,"AC, Akses Kartu, Kolam Renang, Minimarket, Parkir",2.69,4.2
+634,Suites Tebet B,Depok,2BR,52.4,5020000,"Furnished, Kolam Renang, Laundry, Minimarket",10.69,3.2
+635,Tower Grand Galaxy B,Jakarta Pusat,3BR,73.0,13420000,"Furnished, Keamanan 24 Jam, Laundry, Minimarket",7.91,4.1
+636,Residence Casablanca B,Jakarta Utara,Studio,29.9,3810000,"Furnished, Keamanan 24 Jam, Kolam Renang, Laundry",5.33,3.6
+637,Residence Margonda I,Jakarta Pusat,3BR,92.4,11640000,"AC, Gym, Laundry, Minimarket, Parkir, Taman Bermain",8.03,4.0
+638,Suites Royal Mediterania A,Tangerang,1BR,29.9,4390000,"Furnished, Kolam Renang, Parkir",0.35,3.9
+639,Apartemen Pluit B,Jakarta Utara,2BR,57.0,8040000,"Akses Kartu, Keamanan 24 Jam, Parkir, Taman Bermain",3.05,4.3
+640,Residence Bintaro A,Tangerang,1BR,36.1,5460000,"Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",1.33,3.5
+641,Residence Kelapa Gading C,Jakarta Timur,1BR,35.2,5040000,"AC, Laundry, Taman Bermain",1.18,3.9
+642,Apartemen Sudirman A,Jakarta Selatan,3BR,106.9,11830000,"Furnished, Gym, Kolam Renang, Laundry, Parkir",3.44,4.3
+643,Apartemen Casablanca A,Depok,1BR,32.9,4200000,"AC, Furnished, Keamanan 24 Jam, Laundry, Minimarket, Taman Bermain",7.32,4.4
+644,Apartemen Casablanca B,Jakarta Pusat,2BR,52.6,11110000,"AC, Akses Kartu, Minimarket, Parkir, Taman Bermain",7.11,4.3
+645,Kost Eksklusif Royal Mediterania C,Jakarta Barat,Studio,25.0,4320000,"Gym, Kolam Renang, Minimarket, Parkir",7.89,3.6
+646,Suites Senayan I,Bekasi,1BR,37.1,3880000,"AC, Akses Kartu, Furnished, Keamanan 24 Jam, Kolam Renang, Parkir",1.62,3.8
+647,Suites Cikini I,Jakarta Selatan,1BR,38.2,7750000,"Akses Kartu, Gym, Laundry, Minimarket",0.64,4.1
+648,Tower Kelapa Gading C,Tangerang,3BR,104.5,10450000,"AC, Akses Kartu, Minimarket",0.14,4.4
+649,Apartemen Kelapa Gading B,Jakarta Barat,1BR,31.8,4830000,"AC, Keamanan 24 Jam, Laundry, Taman Bermain",3.57,4.1
+650,Apartemen Alam Sutera B,Jakarta Selatan,2BR,62.1,11240000,"AC, Keamanan 24 Jam, Kolam Renang, Laundry, Taman Bermain",11.36,4.5
+651,Suites Kelapa Gading C,Jakarta Utara,1BR,32.4,3540000,"AC, Laundry, Parkir",7.92,3.5
+652,Suites Kuningan B,Tangerang,1BR,35.6,5320000,"Akses Kartu, Gym, Minimarket, Taman Bermain",5.26,3.4
+653,Apartemen Grand Galaxy B,Bekasi,1BR,39.0,3550000,"Gym, Laundry, Minimarket, Parkir",2.04,3.9
+654,Suites Sudirman A,Tangerang,Studio,26.7,2770000,"Gym, Laundry, Taman Bermain",9.03,4.7
+655,Apartemen Menteng B,Jakarta Selatan,1BR,32.2,4560000,"Furnished, Gym, Kolam Renang",7.57,4.0
+656,Apartemen Permata C,Bekasi,1BR,33.2,4700000,"Akses Kartu, Gym, Kolam Renang, Laundry, Minimarket",3.0,3.2
+657,Apartemen Tebet B,Tangerang,1BR,28.0,4060000,"AC, Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Parkir",2.8,5.0
+658,Residence Kuningan I,Jakarta Timur,Studio,29.5,3060000,"AC, Furnished, Gym, Kolam Renang, Taman Bermain",1.01,4.1
+659,Tower Senayan A,Jakarta Pusat,3BR,74.8,15550000,"AC, Furnished, Gym, Keamanan 24 Jam, Minimarket",9.83,4.7
+660,Apartemen Margonda B,Jakarta Pusat,1BR,33.4,6020000,"Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Laundry, Taman Bermain",9.45,3.4
+661,Suites Grand Galaxy II,Tangerang,2BR,51.2,6700000,"Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Laundry, Taman Bermain",8.35,4.0
+662,Residence Sudirman C,Bekasi,1BR,34.5,4950000,"Furnished, Gym, Kolam Renang, Parkir",5.12,4.1
+663,Kost Eksklusif Grand Galaxy B,Jakarta Pusat,Studio,18.7,4380000,"AC, Keamanan 24 Jam, Laundry, Minimarket",10.41,3.4
+664,Apartemen Casablanca II,Jakarta Timur,Studio,27.0,2730000,"Keamanan 24 Jam, Kolam Renang, Laundry, Taman Bermain",8.38,3.1
+665,Tower Tebet I,Jakarta Pusat,Studio,19.8,4290000,"AC, Furnished, Gym, Keamanan 24 Jam, Minimarket, Taman Bermain",0.25,4.4
+666,Apartemen Bintaro I,Bekasi,Studio,21.4,2810000,"Akses Kartu, Keamanan 24 Jam, Taman Bermain",10.59,4.4
+667,Residence Bintaro II,Bekasi,2BR,72.2,7010000,"AC, Akses Kartu, Gym, Keamanan 24 Jam, Minimarket, Parkir",8.54,3.1
+668,Suites Bintaro B,Tangerang,1BR,42.0,5940000,"Furnished, Minimarket, Taman Bermain",7.3,3.1
+669,Apartemen Senayan B,Depok,3BR,77.7,7870000,"AC, Gym, Kolam Renang, Minimarket, Parkir",1.03,4.2
+670,Apartemen Margonda A,Jakarta Utara,1BR,37.4,6000000,"Kolam Renang, Minimarket, Taman Bermain",0.49,4.9
+671,Apartemen Cikini B,Jakarta Selatan,2BR,66.3,11490000,"AC, Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Parkir",3.84,3.0
+672,Residence Menteng B,Tangerang,3BR,103.1,13820000,"Akses Kartu, Furnished, Gym, Minimarket",3.55,4.5
+673,Apartemen Thamrin II,Jakarta Pusat,2BR,55.7,6950000,"AC, Furnished, Gym, Kolam Renang, Laundry, Parkir",7.52,4.3
+674,Tower Kuningan C,Bekasi,Studio,27.7,2790000,"Gym, Minimarket, Taman Bermain",10.46,3.3
+675,Apartemen Green Bay I,Jakarta Utara,2BR,52.4,5280000,"AC, Gym, Laundry, Minimarket, Parkir, Taman Bermain",8.56,3.1
+676,Kost Eksklusif Pondok Indah C,Jakarta Utara,3BR,91.6,11960000,"Akses Kartu, Furnished, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",8.2,4.8
+677,Residence Bintaro I,Jakarta Selatan,Studio,26.9,5040000,"Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket, Taman Bermain",0.19,4.3
+678,Suites Grand Galaxy B,Depok,3BR,95.5,11280000,"Gym, Keamanan 24 Jam, Taman Bermain",9.84,3.8
+679,Suites Thamrin B,Jakarta Barat,2BR,52.0,7420000,"AC, Akses Kartu, Gym, Kolam Renang, Minimarket, Taman Bermain",2.63,3.6
+680,Suites Pluit C,Jakarta Selatan,3BR,69.1,18290000,"Kolam Renang, Laundry, Parkir, Taman Bermain",11.74,4.3
+681,Apartemen Senayan I,Jakarta Barat,1BR,29.2,4510000,"Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Laundry, Parkir",3.65,3.7
+682,Apartemen Permata II,Jakarta Utara,1BR,31.4,5850000,"Furnished, Laundry, Minimarket, Taman Bermain",5.83,3.4
+683,Tower Casablanca I,Jakarta Pusat,2BR,63.2,11170000,"Gym, Keamanan 24 Jam, Kolam Renang, Minimarket, Parkir",9.92,3.5
+684,Suites Permata B,Jakarta Selatan,3BR,126.3,18390000,"Akses Kartu, Kolam Renang, Parkir",7.7,4.2
+685,Tower Cervino II,Jakarta Timur,2BR,47.3,5760000,"Furnished, Kolam Renang, Taman Bermain",8.19,4.6
+686,Suites Grand Galaxy C,Jakarta Barat,3BR,107.2,10650000,"Akses Kartu, Furnished, Gym, Kolam Renang, Laundry",4.98,3.4
+687,Apartemen Sudirman II,Jakarta Pusat,3BR,89.8,18410000,"Akses Kartu, Gym, Kolam Renang, Laundry, Taman Bermain",5.31,4.9
+688,Residence Pondok Indah II,Jakarta Barat,3BR,113.7,11990000,"AC, Akses Kartu, Gym, Kolam Renang, Laundry, Parkir",6.58,3.8
+689,Tower Pluit C,Jakarta Timur,3BR,126.8,9800000,"AC, Gym, Keamanan 24 Jam, Kolam Renang, Laundry, Taman Bermain",9.55,3.6
+690,Suites Kelapa Gading II,Tangerang,1BR,28.1,6650000,"AC, Akses Kartu, Furnished, Gym, Taman Bermain",0.49,4.9
+691,Kost Eksklusif Kuningan I,Jakarta Timur,3BR,118.9,13410000,"Akses Kartu, Keamanan 24 Jam, Laundry, Taman Bermain",6.98,3.5
+692,Apartemen Sudirman I,Jakarta Pusat,Studio,25.6,5570000,"Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Kolam Renang",7.57,3.0
+693,Residence Kelapa Gading B,Jakarta Pusat,Studio,25.4,5000000,"Furnished, Keamanan 24 Jam, Minimarket",6.9,3.6
+694,Kost Eksklusif Casablanca A,Jakarta Timur,3BR,115.1,12270000,"Akses Kartu, Gym, Kolam Renang, Parkir",3.37,3.3
+695,Apartemen Grand Galaxy A,Jakarta Utara,1BR,29.6,4740000,"Gym, Laundry, Minimarket, Taman Bermain",4.4,4.0
+696,Kost Eksklusif Kemang A,Jakarta Barat,1BR,39.7,4440000,"AC, Gym, Keamanan 24 Jam, Kolam Renang, Minimarket, Taman Bermain",3.83,5.0
+697,Kost Eksklusif Cikini B,Depok,3BR,129.7,14190000,"AC, Gym, Kolam Renang, Minimarket, Parkir",0.16,3.4
+698,Suites Menteng A,Depok,Studio,28.8,2560000,"AC, Akses Kartu, Keamanan 24 Jam",1.75,3.7
+699,Suites Casablanca II,Jakarta Utara,3BR,113.4,10970000,"AC, Furnished, Gym, Keamanan 24 Jam, Minimarket, Parkir",6.2,4.6
+700,Suites Grand Galaxy B,Jakarta Utara,1BR,41.5,5880000,"AC, Akses Kartu, Furnished, Kolam Renang, Laundry, Taman Bermain",5.91,4.1
+701,Kost Eksklusif Alam Sutera I,Depok,Studio,23.4,4280000,"AC, Furnished, Laundry, Minimarket, Taman Bermain",11.5,3.1
+702,Tower Sudirman C,Jakarta Pusat,2BR,55.0,7170000,"Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Taman Bermain",2.66,3.4
+703,Kost Eksklusif Senayan II,Depok,1BR,37.5,4460000,"AC, Akses Kartu, Furnished, Gym",7.26,4.8
+704,Suites Kuningan II,Tangerang,3BR,85.7,9560000,"AC, Akses Kartu, Furnished, Kolam Renang, Minimarket, Parkir",2.45,3.7
+705,Suites Kemang II,Tangerang,1BR,37.8,4210000,"AC, Keamanan 24 Jam, Minimarket",7.76,4.8
+706,Kost Eksklusif Margonda I,Jakarta Selatan,2BR,62.6,6430000,"AC, Akses Kartu, Furnished, Kolam Renang, Parkir",9.65,4.2
+707,Residence Kemang A,Tangerang,2BR,64.4,6820000,"Furnished, Gym, Kolam Renang",10.2,3.3
+708,Apartemen Kemang C,Depok,3BR,79.7,7700000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Minimarket, Taman Bermain",8.72,3.2
+709,Suites Pondok Indah A,Depok,3BR,82.5,8360000,"AC, Furnished, Gym, Keamanan 24 Jam, Laundry, Taman Bermain",1.74,4.0
+710,Tower Permata B,Jakarta Timur,3BR,108.0,14810000,"AC, Gym, Keamanan 24 Jam, Kolam Renang, Laundry, Parkir",3.93,4.3
+711,Apartemen Margonda B,Jakarta Timur,Studio,18.9,3490000,"Laundry, Minimarket, Parkir, Taman Bermain",2.63,4.6
+712,Suites Pondok Indah II,Depok,2BR,64.8,7620000,"Furnished, Keamanan 24 Jam, Parkir",10.19,4.0
+713,Apartemen Kelapa Gading A,Tangerang,1BR,29.2,4560000,"Gym, Keamanan 24 Jam, Minimarket",8.27,4.8
+714,Residence Bintaro II,Jakarta Pusat,2BR,41.0,9870000,"Furnished, Laundry, Parkir",3.26,3.9
+715,Tower Cikini II,Depok,Studio,23.3,3850000,"AC, Akses Kartu, Gym, Minimarket, Parkir, Taman Bermain",0.68,4.0
+716,Tower Kelapa Gading A,Tangerang,Studio,26.2,3790000,"AC, Akses Kartu, Gym, Kolam Renang",11.51,4.1
+717,Residence Alam Sutera C,Jakarta Utara,1BR,43.0,5250000,"AC, Akses Kartu, Furnished, Gym, Parkir, Taman Bermain",4.91,4.4
+718,Residence Kuningan C,Jakarta Utara,Studio,19.1,3510000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang, Minimarket, Parkir",8.44,4.8
+719,Suites Green Bay A,Jakarta Pusat,Studio,26.0,4040000,"Furnished, Keamanan 24 Jam, Kolam Renang",11.7,4.0
+720,Apartemen Casablanca C,Jakarta Timur,3BR,72.1,13550000,"Akses Kartu, Gym, Keamanan 24 Jam, Laundry, Parkir",6.85,4.6
+721,Tower Cikini II,Depok,3BR,96.9,9810000,"AC, Akses Kartu, Furnished, Keamanan 24 Jam, Kolam Renang, Minimarket",6.59,4.0
+722,Kost Eksklusif Grand Galaxy C,Jakarta Utara,Studio,19.8,3320000,"Furnished, Gym, Kolam Renang, Minimarket",2.72,3.4
+723,Tower Margonda I,Jakarta Barat,1BR,43.7,4440000,"Akses Kartu, Furnished, Keamanan 24 Jam, Minimarket, Taman Bermain",1.38,4.2
+724,Tower Casablanca A,Jakarta Utara,2BR,46.7,7320000,"Furnished, Laundry, Minimarket",8.45,4.0
+725,Tower Sudirman I,Jakarta Pusat,3BR,109.3,14070000,"AC, Kolam Renang, Minimarket, Taman Bermain",6.74,3.1
+726,Tower Cervino II,Jakarta Utara,Studio,18.6,3110000,"AC, Keamanan 24 Jam, Kolam Renang",5.22,4.3
+727,Suites Alam Sutera B,Jakarta Pusat,Studio,26.6,3750000,"AC, Kolam Renang, Parkir",5.24,4.6
+728,Tower Green Bay B,Tangerang,3BR,90.9,14230000,"AC, Akses Kartu, Keamanan 24 Jam, Parkir, Taman Bermain",10.73,4.4
+729,Suites Grand Galaxy A,Jakarta Timur,2BR,44.7,7220000,"AC, Keamanan 24 Jam, Minimarket",3.68,3.3
+730,Apartemen Permata A,Bekasi,2BR,57.6,7740000,"Akses Kartu, Laundry, Minimarket, Parkir, Taman Bermain",4.35,4.9
+731,Kost Eksklusif Permata II,Tangerang,Studio,27.1,3730000,"Akses Kartu, Furnished, Gym, Taman Bermain",3.7,4.8
+732,Tower Royal Mediterania A,Jakarta Selatan,3BR,73.2,15980000,"Furnished, Gym, Keamanan 24 Jam, Kolam Renang, Minimarket, Taman Bermain",9.18,4.6
+733,Kost Eksklusif Tebet B,Bekasi,2BR,70.3,5490000,"Akses Kartu, Keamanan 24 Jam, Parkir",7.06,3.4
+734,Kost Eksklusif Casablanca II,Jakarta Pusat,2BR,62.0,10930000,"Akses Kartu, Gym, Kolam Renang, Taman Bermain",9.69,3.2
+735,Suites Kuningan B,Jakarta Timur,Studio,23.7,4170000,"AC, Gym, Laundry",5.38,4.7
+736,Residence Cikini II,Jakarta Utara,3BR,120.9,11940000,"Keamanan 24 Jam, Parkir, Taman Bermain",5.25,3.4
+737,Suites Grand Galaxy I,Bekasi,2BR,50.1,5400000,"AC, Akses Kartu, Furnished, Kolam Renang, Laundry",7.11,3.3
+738,Tower Thamrin I,Jakarta Utara,3BR,72.8,10120000,"Kolam Renang, Minimarket, Taman Bermain",7.01,4.8
+739,Apartemen Kuningan B,Bekasi,2BR,40.3,5630000,"AC, Akses Kartu, Furnished, Laundry",6.06,3.7
+740,Kost Eksklusif Kuningan II,Depok,3BR,111.5,13290000,"Gym, Laundry, Minimarket, Parkir, Taman Bermain",3.41,4.4
+741,Residence Casablanca A,Jakarta Utara,1BR,39.9,4970000,"Akses Kartu, Furnished, Gym, Kolam Renang, Laundry, Taman Bermain",7.01,4.0
+742,Suites Senayan A,Bekasi,2BR,66.6,8930000,"Gym, Keamanan 24 Jam, Laundry, Minimarket",9.72,4.2
+743,Suites Bintaro B,Jakarta Barat,Studio,28.2,2650000,"Furnished, Gym, Keamanan 24 Jam",9.18,5.0
+744,Kost Eksklusif Sudirman A,Jakarta Timur,1BR,32.3,4590000,"Keamanan 24 Jam, Kolam Renang, Laundry, Parkir",3.5,3.4
+745,Kost Eksklusif Permata B,Jakarta Pusat,Studio,22.3,5070000,"AC, Furnished, Keamanan 24 Jam, Minimarket, Parkir, Taman Bermain",0.96,4.6
+746,Suites Kelapa Gading A,Bekasi,3BR,105.7,13990000,"AC, Akses Kartu, Gym, Kolam Renang",6.87,4.2
+747,Tower Senayan II,Depok,Studio,20.7,4380000,"Furnished, Gym, Laundry, Minimarket, Taman Bermain",11.08,4.2
+748,Residence Margonda A,Jakarta Utara,3BR,105.2,11370000,"AC, Akses Kartu, Keamanan 24 Jam, Kolam Renang, Laundry, Parkir",10.71,3.3
+749,Kost Eksklusif Royal Mediterania A,Depok,Studio,20.8,2650000,"Furnished, Gym, Laundry",11.38,4.8
+750,Apartemen Kemang A,Bekasi,1BR,32.6,4330000,"AC, Gym, Laundry, Minimarket, Taman Bermain",0.52,4.5
+751,Suites Grand Galaxy II,Jakarta Timur,3BR,109.3,12900000,"Keamanan 24 Jam, Laundry, Taman Bermain",6.67,3.3
+752,Residence Senayan II,Bekasi,Studio,28.8,4470000,"Furnished, Gym, Kolam Renang, Laundry",4.48,3.0
+753,Suites Kuningan C,Tangerang,Studio,29.9,2530000,"Gym, Keamanan 24 Jam, Kolam Renang",8.67,3.1
+754,Kost Eksklusif Menteng I,Depok,1BR,45.0,3820000,"AC, Gym, Taman Bermain",4.83,4.4
+755,Kost Eksklusif Cikini A,Depok,1BR,35.5,4260000,"AC, Akses Kartu, Furnished, Keamanan 24 Jam, Parkir",4.47,3.1
+756,Tower Thamrin A,Tangerang,3BR,83.2,8630000,"AC, Akses Kartu, Kolam Renang, Parkir",1.73,5.0
+757,Apartemen Pluit II,Bekasi,3BR,126.9,7170000,"AC, Akses Kartu, Kolam Renang, Laundry, Taman Bermain",10.05,3.8
+758,Apartemen Royal Mediterania C,Jakarta Selatan,3BR,90.0,9130000,"AC, Akses Kartu, Keamanan 24 Jam, Kolam Renang, Minimarket, Taman Bermain",2.29,4.8
+759,Kost Eksklusif Pondok Indah I,Jakarta Utara,1BR,40.9,4350000,"AC, Gym, Keamanan 24 Jam, Kolam Renang, Laundry, Parkir",9.97,4.1
+760,Tower Senayan B,Jakarta Utara,1BR,44.3,4670000,"AC, Keamanan 24 Jam, Kolam Renang, Laundry",11.91,4.5
+761,Tower Pluit B,Jakarta Utara,2BR,60.0,5150000,"AC, Gym, Keamanan 24 Jam, Kolam Renang, Taman Bermain",3.36,3.9
+762,Kost Eksklusif Permata C,Jakarta Selatan,3BR,65.6,9280000,"Gym, Keamanan 24 Jam, Kolam Renang, Laundry",7.69,4.9
+763,Residence Casablanca A,Bekasi,1BR,32.4,5470000,"AC, Gym, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",3.19,3.4
+764,Apartemen Royal Mediterania B,Bekasi,2BR,41.5,9610000,"AC, Furnished, Kolam Renang, Minimarket, Taman Bermain",0.82,3.7
+765,Apartemen Margonda II,Jakarta Barat,3BR,72.4,7620000,"Akses Kartu, Gym, Keamanan 24 Jam, Laundry, Taman Bermain",2.53,4.6
+766,Tower Thamrin II,Depok,3BR,123.3,10000000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Minimarket, Taman Bermain",11.32,3.1
+767,Residence Bintaro A,Jakarta Timur,2BR,57.9,8120000,"Akses Kartu, Furnished, Kolam Renang, Laundry, Parkir",6.15,4.9
+768,Tower Pluit B,Jakarta Timur,3BR,100.0,7970000,"Akses Kartu, Minimarket, Taman Bermain",10.55,4.7
+769,Residence Pondok Indah I,Jakarta Utara,1BR,33.6,5500000,"Akses Kartu, Furnished, Gym, Minimarket",11.73,3.7
+770,Kost Eksklusif Thamrin II,Depok,Studio,29.0,3810000,"AC, Akses Kartu, Gym, Keamanan 24 Jam, Laundry, Parkir",7.3,3.5
+771,Suites Sudirman B,Jakarta Utara,2BR,51.0,5330000,"Gym, Minimarket, Parkir, Taman Bermain",5.11,3.2
+772,Tower Thamrin I,Jakarta Utara,3BR,113.3,9560000,"Gym, Keamanan 24 Jam, Laundry, Parkir",0.51,4.4
+773,Suites Grand Galaxy I,Jakarta Timur,2BR,44.2,8590000,"Furnished, Gym, Kolam Renang",10.79,4.5
+774,Suites Bintaro C,Tangerang,2BR,66.5,7800000,"Furnished, Keamanan 24 Jam, Kolam Renang",8.83,3.9
+775,Apartemen Menteng I,Jakarta Utara,Studio,20.8,4190000,"AC, Akses Kartu, Furnished, Gym, Keamanan 24 Jam, Laundry",0.67,4.0
+776,Apartemen Kelapa Gading C,Depok,Studio,22.2,2830000,"AC, Keamanan 24 Jam, Laundry, Minimarket, Parkir, Taman Bermain",3.53,3.3
+777,Residence Cervino II,Jakarta Timur,1BR,28.5,5760000,"Keamanan 24 Jam, Kolam Renang, Minimarket, Taman Bermain",11.52,3.9
+778,Tower Senayan B,Bekasi,1BR,42.1,4240000,"Laundry, Minimarket, Taman Bermain",1.4,5.0
+779,Tower Pondok Indah II,Jakarta Barat,2BR,68.1,7980000,"Furnished, Keamanan 24 Jam, Taman Bermain",2.75,4.3
+780,Apartemen Kelapa Gading B,Jakarta Barat,2BR,71.2,5150000,"Akses Kartu, Furnished, Kolam Renang, Laundry, Parkir",1.3,4.2
+781,Residence Sudirman I,Jakarta Timur,1BR,32.5,3880000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang, Parkir, Taman Bermain",9.79,3.1
+782,Residence Cervino I,Jakarta Timur,1BR,28.7,5220000,"Akses Kartu, Furnished, Keamanan 24 Jam, Minimarket",7.4,4.0
+783,Suites Casablanca B,Tangerang,2BR,59.0,6180000,"Akses Kartu, Furnished, Gym, Laundry, Minimarket",2.71,3.9
+784,Kost Eksklusif Menteng I,Depok,Studio,22.2,3300000,"Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Minimarket, Parkir",1.62,3.1
+785,Tower Kemang C,Depok,2BR,63.6,6640000,"AC, Gym, Keamanan 24 Jam, Kolam Renang, Laundry, Parkir",9.73,3.9
+786,Suites Senayan C,Jakarta Timur,1BR,37.1,5450000,"Akses Kartu, Furnished, Keamanan 24 Jam, Kolam Renang, Minimarket",1.41,4.8
+787,Residence Alam Sutera C,Jakarta Barat,Studio,24.2,3220000,"Akses Kartu, Keamanan 24 Jam, Laundry, Parkir",2.46,3.8
+788,Apartemen Kuningan C,Jakarta Timur,Studio,18.4,2540000,"Akses Kartu, Laundry, Minimarket",11.29,3.6
+789,Apartemen Cikini I,Jakarta Timur,1BR,28.6,5370000,"AC, Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Taman Bermain",9.77,3.0
+790,Suites Menteng A,Jakarta Pusat,Studio,26.8,5060000,"Akses Kartu, Furnished, Keamanan 24 Jam, Kolam Renang, Laundry",7.31,3.5
+791,Suites Bintaro C,Bekasi,3BR,83.9,7740000,"AC, Kolam Renang, Minimarket, Parkir, Taman Bermain",11.61,4.5
+792,Apartemen Cervino C,Jakarta Barat,3BR,79.6,14800000,"AC, Furnished, Minimarket, Taman Bermain",4.83,3.3
+793,Suites Cikini II,Jakarta Barat,Studio,24.7,2920000,"AC, Gym, Keamanan 24 Jam, Laundry",11.31,4.5
+794,Residence Permata I,Jakarta Selatan,3BR,81.4,12030000,"Furnished, Keamanan 24 Jam, Kolam Renang, Laundry, Taman Bermain",1.89,4.1
+795,Suites Thamrin A,Depok,1BR,33.5,5270000,"Gym, Laundry, Taman Bermain",6.22,3.3
+796,Suites Bintaro A,Jakarta Barat,1BR,31.4,5670000,"AC, Furnished, Gym, Keamanan 24 Jam, Minimarket, Taman Bermain",1.45,3.6
+797,Kost Eksklusif Menteng II,Tangerang,2BR,65.2,8520000,"Furnished, Gym, Keamanan 24 Jam, Minimarket, Taman Bermain",3.33,4.9
+798,Tower Grand Galaxy B,Depok,2BR,56.5,5840000,"Akses Kartu, Keamanan 24 Jam, Kolam Renang, Minimarket",4.03,3.3
+799,Residence Senayan C,Jakarta Barat,Studio,21.7,2880000,"AC, Furnished, Gym, Kolam Renang, Laundry, Parkir",8.36,4.3
+800,Kost Eksklusif Permata B,Jakarta Timur,2BR,62.0,8710000,"AC, Akses Kartu, Furnished, Keamanan 24 Jam, Parkir, Taman Bermain",3.37,3.2
